@@ -1,0 +1,317 @@
+
+
+
+.pass{
+    display: flex;
+    width: 70%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 0.5em;
+ 
+
+
+}
+.pass button{
+    width: 40%;
+    height: 3em;
+    background-color: darkgreen;
+    margin-top: 1em;
+    color: azure;
+    box-shadow: 10px 10px 5px gray;
+    font-size: 0.8em;
+}
+.pass button:hover{
+    width: 39%;
+    height: 2.8em;
+    background-color: darkgreen;
+    margin-top: 1em;
+    color: azure;
+    box-shadow: 7px 7px 3px gray;
+    font-size: 0.75em;
+    transition: 0.5s;
+}
+
+
+
+
+button{
+    background-color: darkcyan;
+}
+
+.botonVolMen a{
+    font-size: 1.3em;
+    margin: auto;
+    padding: 0.5em;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.contenedorPrinc{
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background-color: rgb(208, 204, 189);
+    flex-direction: column;
+    padding: 1em;
+}
+
+.contSec{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: rgb(155, 196, 186);
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+}
+
+h1{
+    font-size: 3em;
+    margin: 2em;
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 5px 4px 10px rgb(167, 162, 162);
+}
+
+h2{
+    margin-left: 3em;
+    font-family: monospace;
+    margin: auto;
+    padding-top: 0.3em;
+}
+
+audio{
+    width: 90%;
+    height: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
+.contDiv{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    margin: auto;
+    padding-bottom:2em;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(196, 187, 155);
+}
+
+.cajita1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+   
+}
+
+.cajita2{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;  
+}
+
+p{
+    text-align: center;
+    font-size: 2em;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+
+/*inicio contraseña*/
+
+body {
+    display: flex;
+    background-color: blanchedalmond;
+  }
+
+  #login-form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  #login-form h2{
+    font-size: 2.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-bottom: 0.6em;
+    text-shadow: 7px 5px 5px rgb(158, 158, 158);
+    background-color: rgb(125, 166, 175);
+    padding: 0.5em;
+    border-radius: 0.5em;
+    opacity: 0.7;
+  }
+
+  #form{
+   margin: 0 center;
+   text-align: center;
+  } 
+  
+  #form label{
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-shadow: 7px 5px 5px rgb(158, 158, 158);
+  }
+
+#form input { 
+    width: 20em;
+    height: 3em;
+    border-radius: 0.5em;
+    margin-bottom: 0.3em;
+    padding: auto;
+    text-align: center;
+    font-size: 0.9em;
+    border: 0.3em solid black;
+    font-weight: bold;
+  }
+
+input#password{
+    width: 50%;
+    height: 2em;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    background-color: beige;
+}
+
+
+
+/*menu*/
+
+.contFoto {
+    display: flex;
+    width: 85%;
+    height: auto;
+    background-color: rgb(209, 197, 180);
+    border: 0.3em groove rgb(113, 56, 8);
+    padding: 2em;
+    margin: 0 auto;
+    border-radius: 0.7em;
+
+}
+
+.contFoto img{
+display: flex;
+width: 9em;
+height: auto;
+opacity: 0.8;
+border: 0.5em solid rgb(78, 50, 9);
+border-radius: 2em;
+margin-right: 1em;
+}
+
+.menu{ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.menu a{
+  
+    font-size: 1.5em;
+    text-decoration: none;
+    color: rgb(117, 104, 104);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.4em;
+}
+
+.menu a:hover{
+    color: black;
+    transition: 0.4s;
+    text-shadow: 7px 7px 8px grey;
+    font-size: 1.6em;
+}
+.menu a:not(:hover){
+    transition: 0.4s;
+}
+
+/*el sonido*/
+
+
+/*música como referente*/
+
+.encabezado{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.7em;
+    margin-left: 11em;
+    margin-right: 11em;
+    margin-bottom: 5em;
+    text-align:center;
+    text-indent: 1em;
+
+
+}
+.referentext{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0.1em;
+    
+    text-align: justify;
+    text-indent: 1em;
+}
+@media (max-width:1000px) {
+.menu{
+    flex-direction: column;
+}
+    .contFoto{flex-direction: column;
+    
+}
+.contFoto img{
+    margin: auto;
+}
+
+.contenedorPrinc{
+    width: 98%;
+    height: auto;
+    margin: auto;
+}
+
+.contDiv{
+    flex-direction: column;
+}
+
+.contFoto{
+    width: 97%;
+    height: auto;
+}
+}
+
+.botonMenu{
+    display: inline-block;
+
+  
+}
+
+.botonMenu img{
+    display: block;
+    width: 130px;
+    height: auto;
+    cursor: pointer;
+
+
+}
+
+.botonMenu img:hover{
+    width: 125px;
+    height: auto;
+    transition: 0.5s;
+}
+

@@ -1,0 +1,123 @@
+
+
+   
+button{
+    background-color: darkcyan;
+}
+.botonVolMen a{
+    font-size: 1.3em;
+    margin: auto;
+    padding: 0.5em;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.contPrinc {
+    display: block;
+    background-color: rgb(179, 223, 255);
+    width: 80%;
+padding:0.5em ;
+    margin: auto;
+}
+body {
+    background-color: rgb(43, 39, 39);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.3em;
+    background-color: beige;
+    text-shadow: 8px 8px 10px grey;
+    border-radius: 0.5em;
+}
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+}
+video {
+
+    width: 15em;
+    height: auto;
+    padding: 0.5em;
+    margin: auto;
+}
+
+.imagen {
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+    display: flex;
+    width:auto;
+    height: 8em;
+    padding: 0.5em;
+    margin: auto;
+
+}
+.imgF img {
+    width:auto;
+    height: 4em;
+
+}
+.nombreVideo{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+p {
+    font-size: 1.5em;
+}
+li {
+    font-size: 1.5em;
+}
+
+.nombreVideo p {
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0%;
+}
+
+.imgfloat1 {
+    width: 100%;
+}
+
+.imgfloat1 img {
+    float: left;
+    margin-left: 0.3em;
+    margin-right:0.3em ;
+    margin-bottom: 0.3em;
+    width: 200px;
+    height: auto;
+}
+
+.botonMenu{
+    display: inline-block;
+
+  
+}
+
+.botonMenu img{
+    display: block;
+    width: 130px;
+    height: auto;
+    cursor: pointer;
+
+
+}
+.botonMenu img:hover{
+    width: 125px;
+    height: auto;
+    transition: 0.5s;
+
+
+}
+
+@media (max-width:1000px){
+        .contPrinc{
+            width: 98%;
+            height: auto;
+            margin: auto;
+        }
+    }

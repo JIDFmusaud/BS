@@ -1,0 +1,218 @@
+
+
+
+
+body{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.cajaPrinc{
+    display: flex;
+    width: 85%;
+    height: auto;
+    background-color: antiquewhite;
+    margin: auto;
+
+    flex-direction: column;
+    border-radius: 0.5em;
+    padding-bottom: 1em;
+}
+
+h1{
+    font-size: 3em;
+    margin: auto;
+    padding: 0.5em;
+    text-shadow: 3px 7px 10px gray;
+}
+
+.lista{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none ;
+    color: rgb(89, 124, 29);
+    font-size: 2em;
+    text-shadow: 10px 10px 10px gray;
+    margin: 0.5em; 
+}
+
+a:hover{
+    color: rgb(23, 24, 22);
+    transition: 0.4s;  
+}
+
+h2{
+    margin: 0.5em;
+    padding: 0.2em;
+    background-color: rgb(232, 255, 205);
+    box-shadow: 5px 5px 10px rgb(27, 27, 27);  
+}
+
+h3 {
+    text-decoration: wavy;
+}
+
+p {
+    margin: 1em;
+    font-size: 1.3em;  
+}
+
+.imaudio {
+    display: flex;
+    width:98%;
+    height: auto;
+    flex-direction: column;
+    padding: 0.5em;
+    margin: auto;
+    background-color: rgb(181, 191, 252);
+    border-radius: 1em;
+}
+
+.imaudio img {
+    display: flex;
+    padding: 0.2em;
+    border-radius: 1em;
+    width: 75%;
+    height: auto;
+    margin: auto; 
+}
+audio{
+    padding-bottom: 1em;
+}
+
+.imaudio audio {
+    width: 40%;
+    height: 1.5em;
+    margin: auto;
+}
+
+.mult-audios {
+    display: flex;
+    padding: 0.3em;
+    margin: auto;
+    flex-direction: row;
+}
+
+.mult-audios p{
+    padding: 0.3em;
+    margin: 0.5em;
+}
+
+.mult-audios audio {
+    display: flex;
+    width: 15em;
+    height: 1.5em;
+}
+
+.mult-audios2 {
+    display: flex;
+    width: 90%;
+    height: auto;
+    padding: 0.3em;
+    margin: auto;
+    flex-direction: row;
+}
+
+.mult-audios2 audio {
+    display: flex;
+    width: 18em;
+    height: 1.5em;
+}
+
+.mult-audios2 p{
+    padding: 0.1em;
+    margin: 0.3em;
+}
+
+.botonMenu{
+    display: inline-block; 
+}
+
+.botonMenu img{
+    display: block;
+    width: 130px;
+    height: auto;
+    cursor: pointer;
+}
+
+.botonMenu img:hover{
+    width: 125px;
+    height: auto;
+    transition: 0.5s;
+}
+
+.botonMenu{
+    margin: 1em;
+}
+
+@media (max-width:1000px) {
+    .cajaPrinc{
+        width: 99%;
+        height: auto;
+        margin: 0.2em;
+    }
+
+    .imaudio audio {
+        width: 80%;
+        height: 2em;
+        margin: auto;
+    }
+
+    .mult-audios2{
+        flex-direction: column;
+    }
+    .mult-audios{flex-direction: column;
+        width: 100%;
+        height: auto;
+
+    }
+    .mult-audios audio{
+        width: 70%;
+        height: 1.3em;
+    }
+}
+
+
+#tonica-formada {
+    cursor: pointer;
+    
+  }
+
+  #Complejo-Impulsivo{
+    cursor: pointer;
+  }
+
+  #Tonico-Iterado{
+    cursor: pointer;
+  }
+
+  #Complejo-Formado{
+    cursor: pointer;
+  }
+
+ #Variado-Formado{
+    cursor: pointer;
+  }
+
+  #tonica-impulsiva{
+    cursor: pointer;
+  }
+
+  #Impulsivo-Variado{
+    cursor: pointer;
+  }
+
+  #Iterado-Variado{
+    cursor: pointer;
+  }
+
+  #Iterado-Complejo{
+    cursor: pointer;
+  }

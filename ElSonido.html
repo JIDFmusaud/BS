@@ -1,221 +1,223 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>EL SONIDO</title>
-    <link rel="icon" href="imagenes/logo.ico">
-	<link rel="stylesheet" type="text/css" href="estiloSonido.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EL SONIDO</title>
+      <link rel="icon" href="imagenes/logo.ico">
+    <link rel="stylesheet" type="text/css" href="estiloSonido.css">
+  </head>
+
+  <body>
     <main>
-        <div class="cajaPrinc">
-          
-            <div class="botonMenu"><a href="menu.html"><img src="imagenes/menu.jpg" alt=""></a></div>
-
-            <h1><strong>PROPIEDADES DEL SONIDO</strong></h1>
-            <br>
+      <div class="cajaPrinc">
             
-            <div class="lista">
-                    <a href="#altura">ALTURA</a>
-                    <br>
-                    <a href="#intensidad">INTENSIDAD</a>
-                    <br>
-                    <a href="#duracion">DURACIÓN</a>
-                    <br>
-                    <a href="#timbre">TIMBRE</a> 
-                    <br>
-                    <a href="#objeto">OBJETO SONORO SEGÚN SCHAEFFER</a> 
-                    <br>            
-            </div>    
+      <div class="botonMenu"><a href="menu.html"><img src="imagenes/menu.jpg" alt=""></a></div>
 
-            <div id="altura"><h2><strong>ALTURA</strong></h2>
-                <p>La altura de un sonido se relaciona con la vibración del aire al excitarse con una fuente. El aire vibra, y hace que análogamente lo haga nuestro tímpano, huesos del oído medio y líquidos y membranas de nuestro oído interno. Lo que ocurre en el oído interno es enviado al cerebro y el mismo se ocupa, dependiendo de la información de vibración que le es enviada, de fabricar el sonido. El sonido es una sensación que el cerebro construye. Por lo tanto, el sonido sólo existe dentro nuestro.</p>
-                <p>Esas vibraciones se miden por segundo, a mayor vibración por segundo, mayor es la altura sonora que percibimos. En el caso del ser humano ocupa el rango de 20 vibraciones por segundo como mínimo, y 20000 vibraciones por segundo como máximo. Las vibraciones por segundo se expresan en Hertz (hz). 20hz son 20 vibraciones en un segundo, es el sonido audible más grave.</p>
-                <p>Cada una de las vibraciones es el tiempo que tarda la partícula de aire en ir y volver a la misma posición, a esto se lo denomina <strong><em>Ciclo</em></strong>, a la cantidad de ciclos que ocurren en 1 segundo se lo denomina <strong><em>Frecuencia.</em></strong> Entonces 20 ciclos en un segundos equivalen a una frecuencia de 20hz.</p>
-                <p>A continuación, podemos ver representados en un oscilograma varios ciclo de un tono puro (los sonidos puros son teóricos, ya que no se encuentran presentes en la naturaleza). Debajo del gráfico podemos escuchar un tono (puro) de una frecuencia de 440hz (440 ciclos en un segundo)</p>
+        <h1><strong>PROPIEDADES DEL SONIDO</strong></h1>
+        <br>
+              
+        <div class="lista">
+          <a href="#altura">ALTURA</a>
+          <br>
+          <a href="#intensidad">INTENSIDAD</a>
+          <br>
+          <a href="#duracion">DURACIÓN</a>
+          <br>
+          <a href="#timbre">TIMBRE</a> 
+          <br>
+          <a href="#objeto">OBJETO SONORO SEGÚN SCHAEFFER</a> 
+          <br>            
+        </div>    
 
-                <div class="imaudio">
-                    <h3>TONO PURO</h3>  
-                    <p>Representación de varios ciclos de un tono puro (sinusoide).</p>
-                    <p>Debajo podemos escuchar un tono puro de 440=Hz.</p>
-                    <a href="imagenes/1.jpg" target="_blank"><img src="imagenes/1.jpg" alt="GRÁFICO OSCILOGRAMA DE SINUSOIDE"></a>
+          <div id="altura"><h2><strong>ALTURA</strong></h2>
+            <p>La altura de un sonido se relaciona con la vibración del aire al excitarse con una fuente. El aire vibra, y hace que análogamente lo haga nuestro tímpano, huesos del oído medio y líquidos y membranas de nuestro oído interno. Lo que ocurre en el oído interno es enviado al cerebro y el mismo se ocupa, dependiendo de la información de vibración que le es enviada, de fabricar el sonido. El sonido es una sensación que el cerebro construye. Por lo tanto, el sonido sólo existe dentro nuestro.</p>
+            <p>Esas vibraciones se miden por segundo, a mayor vibración por segundo, mayor es la altura sonora que percibimos. En el caso del ser humano ocupa el rango de 20 vibraciones por segundo como mínimo, y 20000 vibraciones por segundo como máximo. Las vibraciones por segundo se expresan en Hertz (hz). 20hz son 20 vibraciones en un segundo, es el sonido audible más grave.</p>
+            <p>Cada una de las vibraciones es el tiempo que tarda la partícula de aire en ir y volver a la misma posición, a esto se lo denomina <strong><em>Ciclo</em></strong>, a la cantidad de ciclos que ocurren en 1 segundo se lo denomina <strong><em>Frecuencia.</em></strong> Entonces 20 ciclos en un segundos equivalen a una frecuencia de 20hz.</p>
+            <p>A continuación, podemos ver representados en un oscilograma varios ciclo de un tono puro (los sonidos puros son teóricos, ya que no se encuentran presentes en la naturaleza). Debajo del gráfico podemos escuchar un tono (puro) de una frecuencia de 440hz (440 ciclos en un segundo)</p>
+
+              <div class="imaudio">
+                <h3>TONO PURO</h3>  
+                <p>Representación de varios ciclos de un tono puro (sinusoide).</p>
+                <p>Debajo podemos escuchar un tono puro de 440=Hz.</p>
+                <a href="imagenes/1.jpg" target="_blank"><img src="imagenes/1.jpg" alt="GRÁFICO OSCILOGRAMA DE SINUSOIDE"></a>
+                <audio src="audios/1.mp3" controls></audio>
+              </div>
+              <br>
+
+              <div class="imaudio">
+                <h3>DOS TONOS PURO CON DIFERENTES ALTURAS</h3>  
+                <p>Representación de varios ciclos de un tono puro (sinusoide).</p>
+                <p>Debajo podemos escuchar el tono anterior de 440hz y otro tono de 700hz para comprobar asi que a mayor frecuencia por segundo, la altura será mayor en la experiencia auditiva.</p>
+                <p>En las figuras podemos ver algunos de los ciclos del 440hz y algunos de los de 700hz, si bien no están todos los ciclos de un segundo en el gráfico, la proporción está correcta.</p>
+                <a href="imagenes/440y700.jpg" target="_blank"><img src="imagenes/440y700.jpg" alt="GRÁFICO OSCILOGRAMA DE SINUSOIDE"></a>
+                  <div class="mult-audios"><p>440hz</p>
                     <audio src="audios/1.mp3" controls></audio>
-                </div>
-                <br>
-                <div class="imaudio">
-                    <h3>DOS TONOS PURO CON DIFERENTES ALTURAS</h3>  
-                    <p>Representación de varios ciclos de un tono puro (sinusoide).</p>
-                    <p>Debajo podemos escuchar el tono anterior de 440hz y otro tono de 700hz para comprobar asi que a mayor frecuencia por segundo, la altura será mayor en la experiencia auditiva.</p>
-                    <p>En las figuras podemos ver algunos de los ciclos del 440hz y algunos de los de 700hz, si bien no están todos los ciclos de un segundo en el gráfico, la proporción está correcta.</p>
-                    <a href="imagenes/440y700.jpg" target="_blank"><img src="imagenes/440y700.jpg" alt="GRÁFICO OSCILOGRAMA DE SINUSOIDE"></a>
-                        <div class="mult-audios"><p>440hz</p>
-                            <audio src="audios/1.mp3" controls></audio>
-                            <p>700hz</p>
-                            <audio src="audios/700hz.mp3" controls></audio>
-                        </div>
-                </div>
-                <br>
-                <div class="imaudio">
-                    <h3>SONIDO COMPLEJO DE ALTURA DEFINIDA CON 100HZ COMO FUNDAMENTAL Y SUS PRIMEROS 8 PARCIALES ARMÓNICOS</h3> 
-                    <p>Dibujo de onda de cada parcial armónico.</p>
-                    <a href="imagenes/2.jpg" target="_blank"><img src="imagenes/2.jpg" alt="GRÁFICO OSCILOGRAMAS DE ARMÓNICOS"></a>
-                    <p>Resultante de la suma de los 8 parciales armónicos.</p>
-                    <a href="imagenes/4.jpg" target="_blank"><img src="imagenes/4.jpg" alt="GRÁFICO RESULTANTE DE SUMA DE ARMÓNICOS"></a>
-                    <p>Intensidad de cada parcial armónico (espectro).</p>
-                    <a href="imagenes/3.jpg" target="_blank"><img src="imagenes/3.jpg" alt="GRÁFICO ESPECTROGRAMA"></a>
-                    <p>Audio del tono complejo anterior.</p>
-                    <audio src="audios/2.mp3" controls></audio>
+                      <p>700hz</p>
+                      <audio src="audios/700hz.mp3" controls></audio>
                   </div>
+              </div>
+              <br>
+
+              <div class="imaudio">
+                <h3>SONIDO COMPLEJO DE ALTURA DEFINIDA CON 100HZ COMO FUNDAMENTAL Y SUS PRIMEROS 8 PARCIALES ARMÓNICOS</h3> 
+                <p>Dibujo de onda de cada parcial armónico.</p>
+                <a href="imagenes/2.jpg" target="_blank"><img src="imagenes/2.jpg" alt="GRÁFICO OSCILOGRAMAS DE ARMÓNICOS"></a>
+                <p>Resultante de la suma de los 8 parciales armónicos.</p>
+                <a href="imagenes/4.jpg" target="_blank"><img src="imagenes/4.jpg" alt="GRÁFICO RESULTANTE DE SUMA DE ARMÓNICOS"></a>
+                <p>Intensidad de cada parcial armónico (espectro).</p>
+                <a href="imagenes/3.jpg" target="_blank"><img src="imagenes/3.jpg" alt="GRÁFICO ESPECTROGRAMA"></a>
+                <p>Audio del tono complejo anterior.</p>
+                <audio src="audios/2.mp3" controls></audio>
+              </div>
                 <br>
-                <div class="imaudio">
-                    <h3>SONIDO COMPLEJO DE ALTURA SEMIDEFINIDA</h3> 
-                    <p>Aquí podemos observar nuevamente en el primer ejemplo de los espectrogramas, al sonido de altura definida de 100hz como fundamental y sus 8 primeros parciales armónicos.</p> 
-                    <p>En el segundo espectrograma vemos que se suman parciales inarmónicos, esto hace que la altura puntual comience a desdibujarse. Los inarmónicos que se incluyen, como se ve son 210hz 348hz 580hz y 750hz, ya no están en relación de múltiplo entero de la fundamental.</p>
-                    <a href="imagenes/6.jpg" target="_blank"><img src="imagenes/6.jpg" alt="GRÁFICO ESPECTROGRAMAS COMPARATIVOS" ></a>
-                    <p>Escuchamos los dos ejemplos, primero sin los inarmónicos y luego con ellos.</p>
-                    <audio src="audios/semidef.mp3" controls></audio>
-                </div>
-                <br>
-                <div class="imaudio">
-                    <h3>RUIDO BLANCO</h3> 
-                    <p>Dibujo de onda de un ruido blanco, esto comprende una banda de frecuencias que van de 20hz a 20khz. El ruido blanco contiene la suma de todos los parciales audibles por lo que filtrando correctamente el ruido blanco, podrían obtenerse todos los sonidos del mundo. Es lo análogo al color blanco.</p>
-                
-                    <a href="imagenes/RB.jpg" target="_blank"><img src="imagenes/RB.jpg" alt="GRÁFICO OSCILOGRAMA DE RUIDO BLANCO"></a>
-                    <p>Audio de Ruido Blanco.</p>
-                    <audio src="audios/ruidoBlanco.mp3" controls></audio>
-                </div>           
-                <br>
-                <div class="imaudio">
-                    <h3>DISTINTAS ALTURAS EN LOS RUIDOS</h3>  
-                    <p>Los ruidos también tienen altura, no puntual pero dependiendo de la banda de frecuencias predominantes estos pueden ser más agudos o menos agudos.</p>
-                    <p>En las imágenes vemos dos filtros aplicados al ruido blanco que escuchamos arriba. En el primero filtramos bandas de frecuencias graves y en el segundo agudas.</p>
-                    <a href="imagenes/filtrolphp.jpg" target="_blank"><img src="imagenes/filtrolphp.jpg" alt="GRÁFICO R.B FILTROS"></a>
-                        <div class="mult-audios2">
-                            <p>Ruido blanco filtrado desde 1000hz hacia abajo (Filtro Low Pass).</p>
-                            <audio src="audios/RB-LP-1000.mp3" controls></audio>
-                            <p>Ruido blanco filtrando desde 1000hz hacia arriba (Filtro Hight.Pass).</p>
-                            <audio src="audios/RB-HP-1000.mp3" controls></audio>
-                        </div>
-                </div>
-            <br> 
-            <br>       
-            <div id="intensidad"><h2><strong>INTENSIDAD</strong></h2>
-                <div class="imaudio">
-                    <h3>LA INTENSIDAD ES LA ENERGÍA DEL SONIDO</h3> 
-                    <p>A la intensidad del sonido también se la denomina amplitud, a mayor amplitud, mayor intensidad.</p> 
-                    <p>Existen varias maneras de medir la intensidad sonora, la más utilizada es la escala de decibeles (db) que es una escala logarítmica, su rango va de 0 (sonido menos audible) a 120 (umbral del dolor).</p>
-                    <p>Cuando se trabaja en sonido digital, los db se llaman dbfs (decibeles de escala completa), esta escala tiene al 0 como valor máximo y el resto son valores negativos hasta llegar al infinito, que es la ausencia de señal. La profundidad de estos valores negativos depende de la profundidad de bits en la que se trabaje el audio.</p>
-                    <p>Escuchamos ejemplos debajo:</p>
-                    <a href="imagenes/intensidad.jpg" target="_blank"><img src="imagenes/intensidad.jpg" alt="GRÁFICOS DE INTENSIDAD"></a>
-                        <div class="mult-audios2">
-                            <p>Sonido puro a -10 dbfs.</p>
-                            <audio src="audios/1.-10.mp3" controls></audio>
-                            <p>Sonido puro a 0 dbfs.</p>
-                            <audio src="audios/1.0.mp3" controls></audio>
-                        </div>       
-                </div>
+
+              <div class="imaudio">
+                <h3>SONIDO COMPLEJO DE ALTURA SEMIDEFINIDA</h3> 
+                <p>Aquí podemos observar nuevamente en el primer ejemplo de los espectrogramas, al sonido de altura definida de 100hz como fundamental y sus 8 primeros parciales armónicos.</p> 
+                <p>En el segundo espectrograma vemos que se suman parciales inarmónicos, esto hace que la altura puntual comience a desdibujarse. Los inarmónicos que se incluyen, como se ve son 210hz 348hz 580hz y 750hz, ya no están en relación de múltiplo entero de la fundamental.</p>
+                <a href="imagenes/6.jpg" target="_blank"><img src="imagenes/6.jpg" alt="GRÁFICO ESPECTROGRAMAS COMPARATIVOS" ></a>
+                <p>Escuchamos los dos ejemplos, primero sin los inarmónicos y luego con ellos.</p>
+                <audio src="audios/semidef.mp3" controls></audio>
+              </div>
+              <br>
+
+              <div class="imaudio">
+                <h3>RUIDO BLANCO</h3> 
+                <p>Dibujo de onda de un ruido blanco, esto comprende una banda de frecuencias que van de 20hz a 20khz. El ruido blanco contiene la suma de todos los parciales audibles por lo que filtrando correctamente el ruido blanco, podrían obtenerse todos los sonidos del mundo. Es lo análogo al color blanco.</p>           
+                <a href="imagenes/RB.jpg" target="_blank"><img src="imagenes/RB.jpg" alt="GRÁFICO OSCILOGRAMA DE RUIDO BLANCO"></a>
+                <p>Audio de Ruido Blanco.</p>
+                <audio src="audios/ruidoBlanco.mp3" controls></audio>
+              </div>           
+              <br>
+
+              <div class="imaudio">
+                <h3>DISTINTAS ALTURAS EN LOS RUIDOS</h3>  
+                <p>Los ruidos también tienen altura, no puntual pero dependiendo de la banda de frecuencias predominantes estos pueden ser más agudos o menos agudos.</p>
+                <p>En las imágenes vemos dos filtros aplicados al ruido blanco que escuchamos arriba. En el primero filtramos bandas de frecuencias graves y en el segundo agudas.</p>
+                <a href="imagenes/filtrolphp.jpg" target="_blank"><img src="imagenes/filtrolphp.jpg" alt="GRÁFICO R.B FILTROS"></a>
+                  <div class="mult-audios2">
+                    <p>Ruido blanco filtrado desde 1000hz hacia abajo (Filtro Low Pass).</p>
+                    <audio src="audios/RB-LP-1000.mp3" controls></audio>
+                    <p>Ruido blanco filtrando desde 1000hz hacia arriba (Filtro Hight.Pass).</p>
+                    <audio src="audios/RB-HP-1000.mp3" controls></audio>
+                  </div>
+              </div>
+              <br> 
+              <br> 
+
+          <div id="intensidad"><h2><strong>INTENSIDAD</strong></h2>
+            <div class="imaudio">
+              <h3>LA INTENSIDAD ES LA ENERGÍA DEL SONIDO</h3> 
+              <p>A la intensidad del sonido también se la denomina amplitud, a mayor amplitud, mayor intensidad.</p> 
+              <p>Existen varias maneras de medir la intensidad sonora, la más utilizada es la escala de decibeles (db) que es una escala logarítmica, su rango va de 0 (sonido menos audible) a 120 (umbral del dolor).</p>
+              <p>Cuando se trabaja en sonido digital, los db se llaman dbfs (decibeles de escala completa), esta escala tiene al 0 como valor máximo y el resto son valores negativos hasta llegar al infinito, que es la ausencia de señal. La profundidad de estos valores negativos depende de la profundidad de bits en la que se trabaje el audio.</p>
+              <p>Escuchamos ejemplos debajo:</p>
+              <a href="imagenes/intensidad.jpg" target="_blank"><img src="imagenes/intensidad.jpg" alt="GRÁFICOS DE INTENSIDAD"></a>
+                <div class="mult-audios2">
+                  <p>Sonido puro a -10 dbfs.</p>
+                  <audio src="audios/1.-10.mp3" controls></audio>
+                  <p>Sonido puro a 0 dbfs.</p>
+                  <audio src="audios/1.0.mp3" controls></audio>
+                </div>       
             </div>
-            <br> 
-            <br> 
-            <div id="duracion"><h2><strong>DURACIÓN</strong></h2>
-                <div class="imaudio">
-                    <h3>LOS SONIDOS SE DESARROLLAN EN EL TIEMPO Y TIENEN SU DURACIÓN</h3>  
-                    <a href="imagenes/corlarg.jpg" target="_blank"><img src="imagenes/corlarg.jpg" alt="GRÁFICOS DE SONIDO CORTO Y LARGO">
-                    </a>
-                    
-                    <div class="mult-audios2">
-                        <p>Ruido blanco de corta duración.</p>
-                            <audio src="audios/soncor.mp3" controls></audio>
-                        <p>Ruido blanco de larga duración.</p>
-                            <audio src="audios/sonlarg.mp3" controls></audio>
-                    </div>
-                    <p>A su vez, esta duración en el tiempo se ve afectada por su manera de desarrollarse. A esta manera de desarrollo en el tiempo se la denomina envolvente dinámica.</p>
-                    <p>Los sonidos tienen un <strong>ATAQUE</strong>, una <strong>CAÍDA</strong>, <strong>SOSTÉN</strong> y <strong>RELAJACIÓN</strong>.</p>
-                    <a href="imagenes/envolvente.jpg" target="_blank"><img src="imagenes/envolvente.jpg" alt="Envolvente dinámica"></a>
+          </div>
+          <br> 
+          <br> 
+
+          <div id="duracion"><h2><strong>DURACIÓN</strong></h2>
+            <div class="imaudio">
+              <h3>LOS SONIDOS SE DESARROLLAN EN EL TIEMPO Y TIENEN SU DURACIÓN</h3>  
+              <a href="imagenes/corlarg.jpg" target="_blank"><img src="imagenes/corlarg.jpg" alt="GRÁFICOS DE SONIDO CORTO Y LARGO"></a>       
+                <div class="mult-audios2">
+                  <p>Ruido blanco de corta duración.</p>
+                  <audio src="audios/soncor.mp3" controls></audio>
+                  <p>Ruido blanco de larga duración.</p>
+                  <audio src="audios/sonlarg.mp3" controls></audio>
                 </div>
+                <p>A su vez, esta duración en el tiempo se ve afectada por su manera de desarrollarse. A esta manera de desarrollo en el tiempo se la denomina envolvente dinámica.</p>
+                <p>Los sonidos tienen un <strong>ATAQUE</strong>, una <strong>CAÍDA</strong>, <strong>SOSTÉN</strong> y <strong>RELAJACIÓN</strong>.</p>
+                <a href="imagenes/envolvente.jpg" target="_blank"><img src="imagenes/envolvente.jpg" alt="Envolvente dinámica"></a>
             </div>
-            <br> 
-            <br>  
+          </div>
+          <br> 
+          <br>  
                       
-            <div id="timbre"><h2><strong>TIMBRE</strong></h2>
-                <div class="imaudio">
-                    <p>El timbre del sonido depende de su configuración espectral, esto es de cómo conviven las intensidades de sus componentes parciales. Hay varias causas que hacen a la formante (timbre) de un sonido.</p>
-                    <p>En las siguientes dos figuras encontramos, primero, al espectro anteriormente escuchado en la sección de "Altura". En segundo lugar vemos el mismo sonido fundamental con sus 8 parciales armónicos, pero esta vez, cambiando las intensidades individuales de los componentes. Esto hace que su espectro cambie, y por lo tanto, el timbre del sonido será otro pero no así su altura.</p>
-                    <a href="imagenes/5.jpg" target="_blank"><img src="imagenes/5.jpg" alt="GRÁFICOS ESPECTROGRAMAS COMPARATIVOS"></a>
-                    <p>Audio comparativo de los dos espectros.</p>
-                    <audio src="audios/3.mp3" controls></audio>
-                </div>
+          <div id="timbre"><h2><strong>TIMBRE</strong></h2>
+            <div class="imaudio">
+              <p>El timbre del sonido depende de su configuración espectral, esto es de cómo conviven las intensidades de sus componentes parciales. Hay varias causas que hacen a la formante (timbre) de un sonido.</p>
+              <p>En las siguientes dos figuras encontramos, primero, al espectro anteriormente escuchado en la sección de "Altura". En segundo lugar vemos el mismo sonido fundamental con sus 8 parciales armónicos, pero esta vez, cambiando las intensidades individuales de los componentes. Esto hace que su espectro cambie, y por lo tanto, el timbre del sonido será otro pero no así su altura.</p>
+              <a href="imagenes/5.jpg" target="_blank"><img src="imagenes/5.jpg" alt="GRÁFICOS ESPECTROGRAMAS COMPARATIVOS"></a>
+              <p>Audio comparativo de los dos espectros.</p>
+              <audio src="audios/3.mp3" controls></audio>
             </div>
-            <br>
-            <br>
+          </div>
+          <br>
+          <br>
 
-            <div id="objeto"><h2><strong>LOS OBJETOS SONOROS</strong></h2>
-                <div class="imaudio">
-                    <h4>Los objetos sonoros según P. Schaeffer</h4>
-                    <p>Schaeffer cataloga al sonido para poder realizar construcciones sonoras con una relación par par, esto es, que alguna característica entre los sonidos sea común para una construcción sonora coherente y más dinámica.</p>
-                    <p>Él cataloga tres tipos de Masa (espectro sonoro) y tres tipos de Factura (envolvente dinámica):</p>
+          <div id="objeto"><h2><strong>LOS OBJETOS SONOROS</strong></h2>
+            <div class="imaudio">
+              <h4>Los objetos sonoros según P. Schaeffer</h4>
+              <p>Schaeffer cataloga al sonido para poder realizar construcciones sonoras con una relación par par, esto es, que alguna característica entre los sonidos sea común para una construcción sonora coherente y más dinámica.</p>
+              <p>Él cataloga tres tipos de Masa (espectro sonoro) y tres tipos de Factura (envolvente dinámica):</p>
 
-                <ul>
-                    <li><strong>Masa tónica:</strong> sonidos con altura definida, un espectro armónico.</li>
-                    <audio src="audios/Tónica.mp3" controls></audio>
-                    <li><strong>Masa compleja:</strong> sonidos ruidosos, un espectro de "banda de ruidos".</li>
-                        <audio src="audios/complejo-formado.mp3" controls></audio>
-                    <li><strong>Masa variada:</strong> es cualquiera de los anteriores pero que glissa su altura </li><audio src="audios/variado.mp3" controls></audio>
-                </ul>
+              <ul>
+                <li><strong>Masa tónica:</strong> sonidos con altura definida, un espectro armónico.</li>
+                  <audio src="audios/Tónica.mp3" controls></audio>
+                <li><strong>Masa compleja:</strong> sonidos ruidosos, un espectro de "banda de ruidos".</li>
+                    <audio src="audios/complejo-formado.mp3" controls></audio>
+                <li><strong>Masa variada:</strong> es cualquiera de los anteriores pero que glissa su altura </li><audio src="audios/variado.mp3" controls></audio>
+              </ul>
                 
-                <ul>
-                    <li><strong>Factura formada:</strong> (un sonido que tiene ataque cuerpo y extinción)</li>
-                    <audio src="audios/Tónica.mp3" controls></audio>
-                    <li><strong>Factura impulsiva:</strong> (un sonido que su envolvente dinámica tiene un gran ataque y una extinción rápida, un impulso)</li><audio src="audios/Impulso.mp3" controls></audio>
-                    <li><strong>Factura iterada:</strong> (Los sonidos iterados son una mezcla de los dos anteriores, son micro impulsos incontables que hacen una envolvente global formada, como por ejemplo, el sonido de los dientes del peine al pasar el dedo, o la letra R).</li><audio src="audios/iterado.mp3" controls></audio>
-                </ul>
+              <ul>
+                <li><strong>Factura formada:</strong> (un sonido que tiene ataque cuerpo y extinción)</li>
+                  <audio src="audios/Tónica.mp3" controls></audio>
+                <li><strong>Factura impulsiva:</strong> (un sonido que su envolvente dinámica tiene un gran ataque y una extinción rápida, un impulso)</li><audio src="audios/Impulso.mp3" controls></audio>
+                <li><strong>Factura iterada:</strong> (Los sonidos iterados son una mezcla de los dos anteriores, son micro impulsos incontables que hacen una envolvente global formada, como por ejemplo, el sonido de los dientes del peine al pasar el dedo, o la letra R).</li><audio src="audios/iterado.mp3" controls></audio>
+              </ul>
                 
-                    <p>Veamos un cuadro interactivo de doble entrada donde se pueden combinar la masa y la factura, si un sonido comparte alguna de estas dos cualidades, masa o factura, entonces ellos tienen un parentesco y son más afines al momento de pasar de un sonido a otro en una construcción sonora.</p>
-                
-                
-                
+              <p>Veamos un cuadro interactivo de doble entrada donde se pueden combinar la masa y la factura, si un sonido comparte alguna de estas dos cualidades, masa o factura, entonces ellos tienen un parentesco y son más afines al momento de pasar de un sonido a otro en una construcción sonora.</p>
+                      
                 <table cellspacing="0" border="0">
-                    <colgroup></colgroup>
-                    <colgroup></colgroup>
-                    <colgroup span="3"></colgroup>
-                                        <tr>
-                                            <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" colspan=2 rowspan=2 height="127" align="center" valign=middle bgcolor="#000000"><br></td>
-                                            <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" colspan=3 align="center" valign=middle bgcolor="#B4C7DC"><b><font size=6 color="#3465A4">FACTURA</font></b></td>
-                                            </tr>
-                                        <tr>
-                                            <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#5983B0"><font size=5>Formada</font></td>
-                                            <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#5983B0"><font size=5>Impulsiva</font></td>
-                                            <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#5983B0"><font size=5>Iterada</font></td>
-                                        </tr>
-                                        <tr>
-                                            <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" rowspan=3 height="191" align="center" valign=middle bgcolor="#AFD095"><font size=6 color="#FF0000">MASA</font></td>
-                                            <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#77BC65"><font size=5>Tónica</font></td>
-                                            <td id="tonica-formada" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Tónico/Formado</font></td>
-                                            <td id="tonica-impulsiva" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Tónico/Impulsivo</font></td>
-                                            <td id="Tonico-Iterado"style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Tónico/Iterado</font></td>
-                                        </tr>
-                                        <tr>
-                                            <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#77BC65"><font size=5>Compleja </font></td>
-                                            <td id="Complejo-Formado" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Complejo/Formado</font></td>
-                                            <td id="Complejo-Impulsivo" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Complejo/Impulsivo</font></td>
-                                            <td id="Iterado-Complejo" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Complejo/Iterado</font></td>
-                                        </tr>
-                                        <tr>
-                                            <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#77BC65"><font size=5>Variada</font></td>
-                                            <td id="Variado-Formado" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Variado/formado</font></td>
-                                            <td id="Impulsivo-Variado" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Variado/Impulsivo</font></td>
-                                            <td id="Iterado-Variado" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Variado/Iterado</font></td>
-                                        </tr>
+                 
+                    <tr>
+                        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" colspan=2 rowspan=2 height="127" align="center" valign=middle bgcolor="#000000"><br></td>
+                        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" colspan=3 align="center" valign=middle bgcolor="#B4C7DC"><b><font size=6 color="#3465A4">FACTURA</font></b></td>
+                        </tr>
+                    <tr>
+                        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#5983B0"><font size=5>Formada</font></td>
+                        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#5983B0"><font size=5>Impulsiva</font></td>
+                        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#5983B0"><font size=5>Iterada</font></td>
+                    </tr>
+                    <tr>
+                        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" rowspan=3 height="191" align="center" valign=middle bgcolor="#AFD095"><font size=6 color="#FF0000">MASA</font></td>
+                        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#77BC65"><font size=5>Tónica</font></td>
+                        <td id="tonica-formada" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Tónico/Formado</font></td>
+                        <td id="tonica-impulsiva" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Tónico/Impulsivo</font></td>
+                        <td id="Tonico-Iterado"style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Tónico/Iterado</font></td>
+                    </tr>
+                    <tr>
+                        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#77BC65"><font size=5>Compleja </font></td>
+                        <td id="Complejo-Formado" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Complejo/Formado</font></td>
+                        <td id="Complejo-Impulsivo" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Complejo/Impulsivo</font></td>
+                        <td id="Iterado-Complejo" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Complejo/Iterado</font></td>
+                    </tr>
+                    <tr>
+                        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#77BC65"><font size=5>Variada</font></td>
+                        <td id="Variado-Formado" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Variado/formado</font></td>
+                        <td id="Impulsivo-Variado" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Variado/Impulsivo</font></td>
+                        <td id="Iterado-Variado" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Variado/Iterado</font></td>
+                    </tr>
                 </table>
-                
-                                <p>Pueden encontrar material de lectura al respecto en el libro "EL DISEÑO DE LA BANDA SONORA EN LOS LENGUAJES AUDIOVISUALES" del autor Carmelo Saitta: <a href="pdf/sonido.pdf" target="_blank">Ver aquí</a></p>
-<br>
-                                <div class="boton"><a href="menu.html">ir a menú</a></div>
+              <p>Pueden encontrar material de lectura al respecto en el libro "EL DISEÑO DE LA BANDA SONORA EN LOS LENGUAJES AUDIOVISUALES" del autor Carmelo Saitta: <a href="pdf/sonido.pdf" target="_blank">Ver aquí</a></p>
+              <br>
 
-                                    
-        </div>
- 
+              <div class="boton">
+                <a href="menu.html">ir a menú</a>
+              </div>
+                                                  
+          </div>
+      </div>
 
                                            <!-- info de audios -->
                                 <audio id="audio" src="audios/Tónica.mp3"></audio>
@@ -294,14 +296,7 @@
                                       var audio = document.getElementById('audio9');
                                       audio.play();
                                     });
-                                  </script>
-                           
-            
-             
-      
-
-
-
-       
+                                  </script>       
     </main>
-</body>
+  </body>
+</html>

@@ -3,7 +3,7 @@
 
 
 body{
-    display: flex;
+
     width: 100%;
     height: auto;
     margin: 0;
@@ -153,10 +153,57 @@ audio{
 }
 
 @media (max-width:1000px) {
-    .cajaPrinc{
-        width: 99%;
+    body{
+        width: 100%;
         height: auto;
-        margin: 0.2em;
+    
+  
+    }
+    .cajaPrinc{
+        width: 100%;
+        height: auto;
+        margin: 0;
+
+    }
+    .imaudio{
+        display: flex;
+        width: 95%;
+        height: auto;
+        margin: auto;
+       
+    }
+
+    .objeto{
+        display: flex;
+        width: 95%;
+        height: auto;
+        margin: auto;
+    }
+    thead {
+        display: none;
+    }
+
+    /* Cada fila se convierte en un bloque */
+    tr {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    /* Las celdas se muestran como bloques */
+    td {
+        display: block;
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    /* Etiquetas en celdas */
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        font-weight: bold;
+        text-align: left;
     }
 
     .imaudio audio {
@@ -216,3 +263,49 @@ audio{
   #Iterado-Complejo{
     cursor: pointer;
   }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+/* Contenedor para hacer que la tabla sea desplazable en pantallas pequeñas */
+.table-container {
+    width: 100%;
+    overflow-x: auto; /* Permite el desplazamiento horizontal */
+    display: block; /* Permite que el contenedor tome su propio espacio */
+}
+.boton{
+    display: inline;
+    width: 20%;
+    height: auto;
+    background-color: #000000;
+    border-radius: 0.5px;
+    box-shadow: 10px 10px 7px gray;
+}
+.boton:hover{
+    width: 18%;
+    height: auto;
+    background-color: #000000;
+    border-radius: 0.5px;
+    box-shadow: 8px 8px 5px gray;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: 0.5s;
+    
+
+}
+.boton a { 
+
+    font-size: 1.5em;
+    color: aliceblue;
+    padding: auto;
+
+}

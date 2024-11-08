@@ -83,11 +83,16 @@ h2{
     margin: auto;
     padding-top: 0.3em;
 }
+h4{
+    margin-top: 0em;
+    margin-bottom: 3em;
+    font-size: 1.2em;
+}
 
 audio{
     width: 90%;
     height: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 0.5em;
     padding: 1em;
 }
 
@@ -97,7 +102,7 @@ audio{
     height: auto;
     flex-direction: row;
     margin: auto;
-    padding-bottom:2em;
+
     align-items: center;
     align-content: center;
     background-color: rgb(196, 187, 155);
@@ -118,7 +123,7 @@ audio{
     display: flex;
     width: 100%;
     height: auto;
-    margin: auto;
+
     align-items: center;
     align-content: center;
     flex-direction: column;  
@@ -130,6 +135,9 @@ p{
     font-family: monospace;
     font-weight: bold;
 
+}
+.bajoaudio p{
+    margin: 0.1px;
 }
 
 /*inicio contraseña*/

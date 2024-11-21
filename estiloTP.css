@@ -1,0 +1,83 @@
+
+body{
+    background-color: cornflowerblue;
+}
+h1 {
+    margin: 1em;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 5px 5px 10px rgb(193, 193, 193);
+}
+.contenedorPrinc{
+    display: flex;
+    background-color: blanchedalmond;
+    width: 85%;
+    height: auto;
+    border:0.3em solid black;
+    padding: 1em;
+    margin:  auto;
+    flex-wrap: wrap; 
+    align-items: top; 
+    justify-content: center; 
+}
+video{
+    width: 20em;
+    height: auto;
+}
+.video {
+    width: 21em;
+    height: auto;
+margin: 1em;
+text-align: center;
+
+}
+
+.video p{
+    font-weight: bolder;
+}
+
+.botonMenu{
+    display: flex;
+    width: auto;
+    height: 2em;
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin: 1em;
+    padding: 0.5em;
+    flex-direction: row;
+    border-radius: 0.4em;
+    box-shadow: 5px 5px 10px rgb(193, 193, 193);
+    transition: 0.4s;
+   justify-content: center;
+   justify-items: center;
+}
+
+.botonMenu:hover{
+
+    background-color: rgb(211, 254, 240);
+    transition: 0.4s;
+
+}
+
+.botonMenu a{
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none; 
+    transition: 0.4s;
+
+    margin: auto;  
+}
+
+.botonMenu a:hover{
+    font-size: 1.2em;
+    transition: 0.4s;
+
+}
+
+ul li{
+   text-align: left;
+}
+h3{
+    text-align: left;
+
+}

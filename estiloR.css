@@ -223,18 +223,19 @@ p{
 
 .botonMenu img{
     display: block;
-    width: 130px;
+    width: 8em;
     height: auto;
     cursor: pointer;
 }
 
 .botonMenu img:hover{
-    width: 125px;
+    width: 7.7em;
     height: auto;
     transition: 0.5s;
 }
 
 .botonMenu{
     display: flex;
-    margin: 1em;
+    margin-top: 1em;
+    justify-content: center;
 }

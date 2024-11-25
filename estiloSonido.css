@@ -19,13 +19,16 @@ body{
     flex-direction: column;
     border-radius: 0.5em;
     padding-bottom: 1em;
+    align-items: center;
 }
 
 h1{
-    font-size: 3em;
+    display: flex;
+    font-size: 2.5em;
     margin: auto;
     padding: 0.5em;
     text-shadow: 3px 7px 10px gray;
+    text-align: center;
 }
 
 .lista{
@@ -40,13 +43,15 @@ a {
     color: rgb(89, 124, 29);
     font-size: 2em;
     text-shadow: 10px 10px 10px gray;
-    margin: 0.5em; 
+    margin: auto;
+    justify-items: auto;
 }
-
 a:hover{
     color: rgb(23, 24, 22);
     transition: 0.4s;  
 }
+
+
 
 h2{
     margin: 0.5em;
@@ -64,6 +69,12 @@ p {
     font-size: 1.3em;  
 }
 
+ul{
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
 .imaudio {
     display: flex;
     width:98%;
@@ -73,15 +84,23 @@ p {
     margin: auto;
     background-color: rgb(181, 191, 252);
     border-radius: 1em;
+    align-items: center;
+
+
+}
+img{
+    width: 90%;
+    height: auto;
+    margin: auto;
 }
 
 .imaudio img {
     display: flex;
     padding: 0.2em;
     border-radius: 1em;
-    width: 75%;
-    height: auto;
-    margin: auto; 
+
+
+ 
 }
 audio{
     padding-bottom: 1em;
@@ -105,26 +124,17 @@ audio{
     margin: 0.5em;
 }
 
-.mult-audios audio {
-    display: flex;
-    width: 15em;
-    height: 1.5em;
-}
+
 
 .mult-audios2 {
     display: flex;
     width: 90%;
     height: auto;
-    padding: 0.3em;
     margin: auto;
-    flex-direction: row;
+
+    justify-content: center;
 }
 
-.mult-audios2 audio {
-    display: flex;
-    width: 18em;
-    height: 1.5em;
-}
 
 .mult-audios2 p{
     padding: 0.1em;
@@ -149,7 +159,9 @@ audio{
 }
 
 .botonMenu{
+   
     margin: 1em;
+
 }
 
 @media (max-width:1000px) {
@@ -179,32 +191,9 @@ audio{
         height: auto;
         margin: auto;
     }
-    thead {
-        display: none;
-    }
 
-    /* Cada fila se convierte en un bloque */
-    tr {
-        display: block;
-        margin-bottom: 10px;
-    }
 
-    /* Las celdas se muestran como bloques */
-    td {
-        display: block;
-        text-align: right;
-        padding-left: 50%;
-        position: relative;
-    }
-
-    /* Etiquetas en celdas */
-    td::before {
-        content: attr(data-label);
-        position: absolute;
-        left: 10px;
-        font-weight: bold;
-        text-align: left;
-    }
+    
 
     .imaudio audio {
         width: 80%;
@@ -214,6 +203,7 @@ audio{
 
     .mult-audios2{
         flex-direction: column;
+        align-items: center;
     }
     .mult-audios{flex-direction: column;
         width: 100%;
@@ -224,88 +214,697 @@ audio{
         width: 70%;
         height: 1.3em;
     }
+
+    table{
+    display: none;
+    }
+
+    #minitabla{
+        display: table;
+  
+    }
+
 }
+
+table{
+    display: none;
+    border-collapse: collapse;
+}
+#minitabla{
+    display: block;
+    border-collapse: collapse;
+   
+}
+#minitabla tr{
+    border: 3px solid black;
+}
+
+.tdprinc{
+    font-size: 2em;
+    color: #ffffff;
+    background-color: rgb(0, 72, 104);
+    text-align: center;
+    padding: 0.3em;
+}
+.tdsec1{
+   
+    color: #0c3e0e;
+    background-color: rgb(255, 236, 199);
+    text-align: center;
+    padding: 0.3em;
+
+}
+
+.tdsec2{
+   
+    color: #0c3e0e;
+    background-color: rgb(199, 255, 227);
+    text-align: center;
+    padding: 0.3em;
+
+}
+.tdsec3{
+
+    color: #0c3e0e;
+    background-color: rgb(227, 199, 255);
+    text-align: center;
+    padding: 0.3em;
+}
+
+
+
 
 
 #tonica-formada {
     cursor: pointer;
-    
+    transition: 0.3s;
+    font-size: 1.2em; 
+    color:#000000  
+  }
+#tonica-formada:hover{
+    cursor: pointer;
+    color: rgb(248, 5, 70);
+    transition: 0.3s;
+  }
+#tonica-formada2{
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1.7em; 
+    color:#000000  
+  }
+#tonica-formada2:hover{
+    cursor: pointer;
+    color: rgb(248, 5, 70);
+    transition: 0.3s;
   }
 
-  #Complejo-Impulsivo{
+#Complejo-Impulsivo{
     cursor: pointer;
+    transition: 0.3s;
+    font-size: 1.2em; 
+    color:#000000   
+  }
+#Complejo-Impulsivo:hover{
+    cursor: pointer;
+    color: rgb(248, 5, 70);
+    transition: 0.3s;
   }
 
-  #Tonico-Iterado{
+#Complejo-Impulsivo2{
     cursor: pointer;
+    transition: 0.3s;
+    font-size: 1.7em; 
+    color:#000000   
+  }
+#Complejo-Impulsivo2:hover{
+    cursor: pointer;
+    color: rgb(248, 5, 70);
+    transition: 0.3s;
+  }
+
+#Tonico-Iterado{
+    cursor: pointer;
+    font-size: 1.2em; 
+    color:#000000  
+  }
+  #Tonico-Iterado:hover{
+    cursor: pointer;
+    color: rgb(248, 5, 70);
+    transition: 0.3s;
+  }
+  #Tonico-Iterado2{
+    cursor: pointer;
+    font-size: 1.7em; 
+    color:#000000  
+  }
+  #Tonico-Iterado2:hover{
+    cursor: pointer;
+    color: rgb(248, 5, 70);
+    transition: 0.3s;
   }
 
   #Complejo-Formado{
     cursor: pointer;
+    font-size: 1.2em; 
+    color:#000000  
+  }
+  #Complejo-Formado:hover{
+    cursor: pointer;
+    color: rgb(248, 5, 70);
+    transition: 0.3s;
+  }
+  #Complejo-Formado2{
+    cursor: pointer;
+    font-size: 1.7em; 
+    color:#000000  
+  }
+  #Complejo-Formado2:hover{
+    cursor: pointer;
+    color: rgb(248, 5, 70);
+    transition: 0.3s;
   }
 
- #Variado-Formado{
+ #Variado-Formado2{
     cursor: pointer;
+    font-size: 1.7em; 
+    color:#000000  
+  }
+  #Variado-Formado2:hover{
+    cursor: pointer;
+    color: rgb(248, 5, 70);
+    transition: 0.3s;
   }
 
   #tonica-impulsiva{
     cursor: pointer;
+    font-size: 1.2em; 
+    color:#000000  
+  }
+  #tonica-impulsiva:hover{
+    cursor: pointer;
+    color: rgb(248, 5, 70);
+    transition: 0.3s;
+  }
+
+  #tonica-impulsiva2{
+    cursor: pointer;
+    font-size: 1.7em; 
+    color:#000000  
+  }
+  #tonica-impulsiva2:hover{
+    cursor: pointer;
+    color: rgb(248, 5, 70);
+    transition: 0.3s;
   }
 
   #Impulsivo-Variado{
     cursor: pointer;
+    font-size: 1.2em; 
+    color:#000000  
+  }
+  #Impulsivo-Variado:hover{
+    cursor: pointer;
+    color: rgb(248, 5, 70);
+    transition: 0.3s;
+  }
+
+  #Impulsivo-Variado2{
+    cursor: pointer;
+    font-size: 1.7em; 
+    color:#000000  
+  }
+  #Impulsivo-Variado2:hover{
+    cursor: pointer;
+    color: rgb(248, 5, 70);
+    transition: 0.3s;
   }
 
   #Iterado-Variado{
     cursor: pointer;
+    font-size: 1.2em; 
+    color:#000000  
+  }
+  #Iterado-Variado:hover{
+    cursor: pointer;
+    color: rgb(248, 5, 70);
+    transition: 0.3s;
+  }
+  #Iterado-Variado2{
+    cursor: pointer;
+    font-size: 1.7em; 
+    color:#000000  
+  }
+  #Iterado-Variado2:hover{
+    cursor: pointer;
+    color: rgb(248, 5, 70);
+    transition: 0.3s;
   }
 
   #Iterado-Complejo{
     cursor: pointer;
+    font-size: 1.2em; 
+    color:#000000  
+  }
+  #Iterado-Complejo:hover{
+    cursor: pointer;
+    color: rgb(248, 5, 70);
+    transition: 0.3s;
+  }
+  #Iterado-Complejo2{
+    cursor: pointer;
+    font-size: 1.7em; 
+    color:#000000  
+  }
+  #Iterado-Complejo2:hover{
+    cursor: pointer;
+    color: rgb(248, 5, 70);
+    transition: 0.3s;
   }
 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    border: 0;
-}
 
-td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #000000;
-}
 
-/* Contenedor para hacer que la tabla sea desplazable en pantallas pequeñas */
-.table-container {
-    width: 100%;
-    overflow-x: auto; /* Permite el desplazamiento horizontal */
-    display: block; /* Permite que el contenedor tome su propio espacio */
-}
+
 .boton{
     display: inline;
-    width: 20%;
+    width: 10em;
     height: auto;
     background-color: #000000;
     border-radius: 0.5px;
-    box-shadow: 10px 10px 7px gray;
+    box-shadow: 7px 6px 5px gray;
+    text-align: center;
+    margin: 3em;
+    transition: 0.3s;
+    border-radius: 0.3em;
+    padding: 0.5em;
 }
 .boton:hover{
-    width: 18%;
+    width: 9.5em;
     height: auto;
-    background-color: #000000;
-    border-radius: 0.5px;
-    box-shadow: 8px 8px 5px gray;
     cursor: pointer;
-    font-size: 1.2em;
-    transition: 0.5s;
+    transition: 0.3s;
+    box-shadow: 6px 5px 4px gray;
     
-
 }
 .boton a { 
-
     font-size: 1.5em;
     color: aliceblue;
-    padding: auto;
+    padding: 2px;
 
+}
+
+#stopAll{
+    display: inline;
+    width: 7em;
+    height: auto;
+    position: sticky; /* Activa el comportamiento sticky */
+    top: 1em;       /* Define el límite superior donde se "pega" */
+    padding: 10px;
+    background-color: #ff6735;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    transition: 0.3s;
+    text-align: center;
+    z-index: 100;
+    margin: 0.5em;
+}
+
+#stopAll:hover{
+
+    transition: 0.3s;
+    background-color: #9f0404;
+ 
+}
+
+.comentario{
+    color: #0c3e0e;
+    font-size: 1.3em;
+}
+.comentario:hover{
+    color: #960404;
+
+    cursor: pointer;
+}
+
+#play1{
+display: inline-block;  
+margin-left: 2em;
+padding: 10px 20px;
+background-color: #005c03;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+box-shadow: 7px 6px 7px grey;
+text-align: center;
+transition: 0.3s;
+margin: 0.5em;
+}
+
+#play1:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s;
+}
+
+#play2{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0.5em;
+
+}
+
+#play2:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s;
+}
+
+#play3{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: auto;
+    margin: 0.5em;
+}
+
+#play3:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s;
+}
+
+#play4{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0.5em;
+}
+
+#play4:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s; 
+}
+
+#play5{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0.5em;
+}
+
+#play5:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s; 
+}
+
+#play6{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0.5em;
+}
+
+#play6:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s;
+}
+
+#play7{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0.5em;
+}
+
+#play7:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s;
+}
+
+#play8{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0.5em;
+}
+
+#play8:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s;
+}
+
+#play9{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0.5em;
+}
+
+#play9:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s; 
+}
+
+#play10{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0.5em;
+}
+
+#play10:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s;
+}
+
+#play11{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0.5em;
+}
+
+#play11:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s;
+}
+
+#play12{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0.5em;
+}
+
+#play12:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s; 
+}
+
+#play13{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0.5em;
+}
+
+#play13:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s;
+}
+
+#play14{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0.5em;
+}
+
+#play14:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s;
+}
+#play15{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0.5em;
+}
+
+#play15:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s; 
+}
+
+#play16{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0.5em;
+}
+
+#play16:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s;
+}
+
+#play17{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0.5em;
+}
+
+#play17:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s;
+}
+
+#play18{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0.5em;
+}
+
+#play18:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s;
+}
+
+#play19{
+    display: inline-block;  
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #005c03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    margin: 0.5em;
+}
+
+#play19:hover{
+    background-color: rgb(0, 114, 114);
+    transition: 0.3s;
 }

@@ -11,12 +11,14 @@
   <body>
     <main>
       <div class="cajaPrinc">
-            
-      <div class="botonMenu"><a href="menu.html"><img src="imagenes/menu.jpg" alt=""></a></div>
+
+          <div id="arriba" class="botonMenu">
+            <a href="menu.html"><img src="imagenes/menu.jpg" alt=""></a>
+          </div>
+          <div id="stopAll">AUDIO STOP</div>
 
         <h1><strong>PROPIEDADES DEL SONIDO</strong></h1>
-        <br>
-              
+        <br>            
         <div class="lista">
           <a href="#altura">ALTURA</a>
           <br>
@@ -30,7 +32,7 @@
           <br>            
         </div>    
 
-          <div id="altura"><h2><strong>ALTURA</strong></h2>
+        <div id="altura"><h2><strong>ALTURA</strong></h2>
             <p>La altura de un sonido se relaciona con la vibración del aire al excitarse con una fuente. El aire vibra, y hace que análogamente lo haga nuestro tímpano, huesos del oído medio y líquidos y membranas de nuestro oído interno. Lo que ocurre en el oído interno es enviado al cerebro y el mismo se ocupa, dependiendo de la información de vibración que le es enviada, de fabricar el sonido. El sonido es una sensación que el cerebro construye. Por lo tanto, el sonido sólo existe dentro nuestro.</p>
             <p>Esas vibraciones se miden por segundo, a mayor vibración por segundo, mayor es la altura sonora que percibimos. En el caso del ser humano ocupa el rango de 20 vibraciones por segundo como mínimo, y 20000 vibraciones por segundo como máximo. Las vibraciones por segundo se expresan en Hertz (hz). 20hz son 20 vibraciones en un segundo, es el sonido audible más grave.</p>
             <p>Cada una de las vibraciones es el tiempo que tarda la partícula de aire en ir y volver a la misma posición, a esto se lo denomina <strong><em>Ciclo</em></strong>, a la cantidad de ciclos que ocurren en 1 segundo se lo denomina <strong><em>Frecuencia.</em></strong> Entonces 20 ciclos en un segundos equivalen a una frecuencia de 20hz.</p>
@@ -41,7 +43,7 @@
                 <p>Representación de varios ciclos de un tono puro (sinusoide).</p>
                 <p>Debajo podemos escuchar un tono puro de 440=Hz.</p>
                 <a href="imagenes/1.jpg" target="_blank"><img src="imagenes/1.jpg" alt="GRÁFICO OSCILOGRAMA DE SINUSOIDE"></a>
-                <audio src="audios/1.mp3" controls></audio>
+                <div id="play1">PLAY</div>
               </div>
               <br>
 
@@ -51,11 +53,12 @@
                 <p>Debajo podemos escuchar el tono anterior de 440hz y otro tono de 700hz para comprobar asi que a mayor frecuencia por segundo, la altura será mayor en la experiencia auditiva.</p>
                 <p>En las figuras podemos ver algunos de los ciclos del 440hz y algunos de los de 700hz, si bien no están todos los ciclos de un segundo en el gráfico, la proporción está correcta.</p>
                 <a href="imagenes/440y700.jpg" target="_blank"><img src="imagenes/440y700.jpg" alt="GRÁFICO OSCILOGRAMA DE SINUSOIDE"></a>
-                  <div class="mult-audios"><p>440hz</p>
-                    <audio src="audios/1.mp3" controls></audio>
-                      <p>700hz</p>
-                      <audio src="audios/700hz.mp3" controls></audio>
+
+                  <div class="mult-audios2">
+                    <div id="play2">PLAY 440Hz</div>
+                    <div id="play3">PLAY 700Hz</div>
                   </div>
+
               </div>
               <br>
 
@@ -68,7 +71,9 @@
                 <p>Intensidad de cada parcial armónico (espectro).</p>
                 <a href="imagenes/3.jpg" target="_blank"><img src="imagenes/3.jpg" alt="GRÁFICO ESPECTROGRAMA"></a>
                 <p>Audio del tono complejo anterior.</p>
-                <audio src="audios/2.mp3" controls></audio>
+
+                <div id="play4">PLAY</div>
+             
               </div>
                 <br>
 
@@ -78,7 +83,8 @@
                 <p>En el segundo espectrograma vemos que se suman parciales inarmónicos, esto hace que la altura puntual comience a desdibujarse. Los inarmónicos que se incluyen, como se ve son 210hz 348hz 580hz y 750hz, ya no están en relación de múltiplo entero de la fundamental.</p>
                 <a href="imagenes/6.jpg" target="_blank"><img src="imagenes/6.jpg" alt="GRÁFICO ESPECTROGRAMAS COMPARATIVOS" ></a>
                 <p>Escuchamos los dos ejemplos, primero sin los inarmónicos y luego con ellos.</p>
-                <audio src="audios/semidef.mp3" controls></audio>
+                
+                <div id="play5">PLAY</div>
               </div>
               <br>
 
@@ -87,7 +93,7 @@
                 <p>Dibujo de onda de un ruido blanco, esto comprende una banda de frecuencias que van de 20hz a 20khz. El ruido blanco contiene la suma de todos los parciales audibles por lo que filtrando correctamente el ruido blanco, podrían obtenerse todos los sonidos del mundo. Es lo análogo al color blanco.</p>           
                 <a href="imagenes/RB.jpg" target="_blank"><img src="imagenes/RB.jpg" alt="GRÁFICO OSCILOGRAMA DE RUIDO BLANCO"></a>
                 <p>Audio de Ruido Blanco.</p>
-                <audio src="audios/ruidoBlanco.mp3" controls></audio>
+                <div id="play6">PLAY</div>
               </div>           
               <br>
 
@@ -98,10 +104,15 @@
                 <a href="imagenes/filtrolphp.jpg" target="_blank"><img src="imagenes/filtrolphp.jpg" alt="GRÁFICO R.B FILTROS"></a>
                   <div class="mult-audios2">
                     <p>Ruido blanco filtrado desde 1000hz hacia abajo (Filtro Low Pass).</p>
-                    <audio src="audios/RB-LP-1000.mp3" controls></audio>
+                    <div id="play7">PLAY</div>
                     <p>Ruido blanco filtrando desde 1000hz hacia arriba (Filtro Hight.Pass).</p>
-                    <audio src="audios/RB-HP-1000.mp3" controls></audio>
+                    <div id="play8">PLAY</div>
                   </div>
+
+                  <div class="boton">
+                    <a href="#arriba">volver arriba</a>
+                  </div>
+
               </div>
               <br> 
               <br> 
@@ -115,11 +126,14 @@
               <p>Escuchamos ejemplos debajo:</p>
               <a href="imagenes/intensidad.jpg" target="_blank"><img src="imagenes/intensidad.jpg" alt="GRÁFICOS DE INTENSIDAD"></a>
                 <div class="mult-audios2">
-                  <p>Sonido puro a -10 dbfs.</p>
-                  <audio src="audios/1.-10.mp3" controls></audio>
-                  <p>Sonido puro a 0 dbfs.</p>
-                  <audio src="audios/1.0.mp3" controls></audio>
-                </div>       
+                  <div id="play9">PLAY<br> Sonido puro a -10 dbfs</div>              
+                  <div id="play10">PLAY<br> Sonido puro a 0 dbfs</div>                
+                </div> 
+                
+                <div class="boton">
+              <a href="#arriba">volver arriba</a>
+            </div>
+
             </div>
           </div>
           <br> 
@@ -130,15 +144,19 @@
               <h3>LOS SONIDOS SE DESARROLLAN EN EL TIEMPO Y TIENEN SU DURACIÓN</h3>  
               <a href="imagenes/corlarg.jpg" target="_blank"><img src="imagenes/corlarg.jpg" alt="GRÁFICOS DE SONIDO CORTO Y LARGO"></a>       
                 <div class="mult-audios2">
-                  <p>Ruido blanco de corta duración.</p>
-                  <audio src="audios/soncor.mp3" controls></audio>
-                  <p>Ruido blanco de larga duración.</p>
-                  <audio src="audios/sonlarg.mp3" controls></audio>
+                  
+                  <div id="play11">PLAY<br> Ruido blanco de <br>corta duración</div>
+                  <div id="play12">PLAY<br> Ruido blanco de <br>larga duración</div>
                 </div>
                 <p>A su vez, esta duración en el tiempo se ve afectada por su manera de desarrollarse. A esta manera de desarrollo en el tiempo se la denomina envolvente dinámica.</p>
                 <p>Los sonidos tienen un <strong>ATAQUE</strong>, una <strong>CAÍDA</strong>, <strong>SOSTÉN</strong> y <strong>RELAJACIÓN</strong>.</p>
                 <a href="imagenes/envolvente.jpg" target="_blank"><img src="imagenes/envolvente.jpg" alt="Envolvente dinámica"></a>
-            </div>
+
+                <div class="boton">
+                  <a href="#arriba">volver arriba</a>
+                </div>
+
+            </div>       
           </div>
           <br> 
           <br>  
@@ -148,38 +166,48 @@
               <p>El timbre del sonido depende de su configuración espectral, esto es de cómo conviven las intensidades de sus componentes parciales. Hay varias causas que hacen a la formante (timbre) de un sonido.</p>
               <p>En las siguientes dos figuras encontramos, primero, al espectro anteriormente escuchado en la sección de "Altura". En segundo lugar vemos el mismo sonido fundamental con sus 8 parciales armónicos, pero esta vez, cambiando las intensidades individuales de los componentes. Esto hace que su espectro cambie, y por lo tanto, el timbre del sonido será otro pero no así su altura.</p>
               <a href="imagenes/5.jpg" target="_blank"><img src="imagenes/5.jpg" alt="GRÁFICOS ESPECTROGRAMAS COMPARATIVOS"></a>
-              <p>Audio comparativo de los dos espectros.</p>
-              <audio src="audios/3.mp3" controls></audio>
+              <div id="play13">PLAY<br> Audio comparativo de <br>los dos espectros</div>
+              <div class="boton">
+                <a href="#arriba">volver arriba</a>
+              </div>
             </div>
           </div>
           <br>
           <br>
 
-          <div id="objeto"><h2><strong>LOS OBJETOS SONOROS</strong></h2>
+          <div id="objeto">
+            <h2><strong>LOS OBJETOS SONOROS</strong></h2>
             <div class="imaudio">
-              <h4>Los objetos sonoros según P. Schaeffer</h4>
+              <h3>LOS OBJETOS SONOROS SEGÚN PIERRE SCHAEFFER</h3>
               <p>Schaeffer cataloga al sonido para poder realizar construcciones sonoras con una relación par par, esto es, que alguna característica entre los sonidos sea común para una construcción sonora coherente y más dinámica.</p>
               <p>Él cataloga tres tipos de Masa (espectro sonoro) y tres tipos de Factura (envolvente dinámica):</p>
-
+              <h3>MASA</h3>
               <ul>
                 <li><strong>Masa tónica:</strong> sonidos con altura definida, un espectro armónico.</li>
-                  <audio src="audios/Tónica.mp3" controls></audio>
+                <div id="play14">PLAY</div>
+                  
                 <li><strong>Masa compleja:</strong> sonidos ruidosos, un espectro de "banda de ruidos".</li>
-                    <audio src="audios/complejo-formado.mp3" controls></audio>
-                <li><strong>Masa variada:</strong> es cualquiera de los anteriores pero que glissa su altura </li><audio src="audios/variado.mp3" controls></audio>
+                <div id="play15">PLAY</div>
+                    
+                <li><strong>Masa variada:</strong> es cualquiera de los anteriores pero que glissa su altura.</li> 
+                  <div id="play16">PLAY</div>                
               </ul>
-                
+              <br>
+              <h3>FACTURA</h3>
               <ul>
                 <li><strong>Factura formada:</strong> (un sonido que tiene ataque cuerpo y extinción)</li>
-                  <audio src="audios/Tónica.mp3" controls></audio>
-                <li><strong>Factura impulsiva:</strong> (un sonido que su envolvente dinámica tiene un gran ataque y una extinción rápida, un impulso)</li><audio src="audios/Impulso.mp3" controls></audio>
-                <li><strong>Factura iterada:</strong> (Los sonidos iterados son una mezcla de los dos anteriores, son micro impulsos incontables que hacen una envolvente global formada, como por ejemplo, el sonido de los dientes del peine al pasar el dedo, o la letra R).</li><audio src="audios/iterado.mp3" controls></audio>
+                <div id="play17">PLAY</div>
+                 
+                <li><strong>Factura impulsiva:</strong> (un sonido que su envolvente dinámica tiene un gran ataque y una extinción rápida, un impulso)</li>
+                <div id="play18">PLAY</div>
+                
+                <li><strong>Factura iterada:</strong> (Los sonidos iterados son una mezcla de los dos anteriores, son micro impulsos incontables que hacen una envolvente global formada, como por ejemplo, el sonido de los dientes del peine al pasar el dedo, o la letra R).</li>
+                <div id="play19">PLAY</div>
               </ul>
                 
               <p>Veamos un cuadro interactivo de doble entrada donde se pueden combinar la masa y la factura, si un sonido comparte alguna de estas dos cualidades, masa o factura, entonces ellos tienen un parentesco y son más afines al momento de pasar de un sonido a otro en una construcción sonora.</p>
                       
-                <table cellspacing="0" border="0">
-                 
+                <table>
                     <tr>
                         <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" colspan=2 rowspan=2 height="127" align="center" valign=middle bgcolor="#000000"><br></td>
                         <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" colspan=3 align="center" valign=middle bgcolor="#B4C7DC"><b><font size=6 color="#3465A4">FACTURA</font></b></td>
@@ -192,111 +220,313 @@
                     <tr>
                         <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" rowspan=3 height="191" align="center" valign=middle bgcolor="#AFD095"><font size=6 color="#FF0000">MASA</font></td>
                         <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#77BC65"><font size=5>Tónica</font></td>
-                        <td id="tonica-formada" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Tónico/Formado</font></td>
-                        <td id="tonica-impulsiva" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Tónico/Impulsivo</font></td>
-                        <td id="Tonico-Iterado"style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Tónico/Iterado</font></td>
+                        <td id="tonica-formada" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC">Tónico/Formado</td>
+                        <td id="tonica-impulsiva" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC">Tónico/Impulsivo</td>
+                        <td id="Tonico-Iterado"style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC">Tónico/Iterado</td>
                     </tr>
                     <tr>
                         <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#77BC65"><font size=5>Compleja </font></td>
-                        <td id="Complejo-Formado" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Complejo/Formado</font></td>
-                        <td id="Complejo-Impulsivo" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Complejo/Impulsivo</font></td>
-                        <td id="Iterado-Complejo" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Complejo/Iterado</font></td>
+                        <td id="Complejo-Formado" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC">Complejo/Formado</td>
+                        <td id="Complejo-Impulsivo" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC">Complejo/Impulsivo</td>
+                        <td id="Iterado-Complejo" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC">Complejo/Iterado</td>
                     </tr>
                     <tr>
                         <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#77BC65"><font size=5>Variada</font></td>
-                        <td id="Variado-Formado" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Variado/formado</font></td>
-                        <td id="Impulsivo-Variado" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Variado/Impulsivo</font></td>
-                        <td id="Iterado-Variado" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC"><font size=4 color="#000000">Variado/Iterado</font></td>
+                        <td id="Variado-Formado" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC">Variado/formado</td>
+                        <td id="Impulsivo-Variado" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC">Variado/Impulsivo</td>
+                        <td id="Iterado-Variado" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" valign=middle bgcolor="#CCCCCC">Variado/Iterado</td>
                     </tr>
                 </table>
-              <p>Pueden encontrar material de lectura al respecto en el libro "EL DISEÑO DE LA BANDA SONORA EN LOS LENGUAJES AUDIOVISUALES" del autor Carmelo Saitta: <a href="pdf/sonido.pdf" target="_blank">Ver aquí</a></p>
+               
+               
+                <!-- TABLA MINI -->
+
+  <table id="minitabla">
+  <tr>
+    <td class="tdprinc">MASA/FACTURA</td>
+  </tr>
+
+  <tr class="tdsec1">
+    <td id="tonica-formada2">Tonico/Formado</td>
+  </tr>
+  <tr class="tdsec1">
+    <td id="tonica-impulsiva2">Tónico/Impulsivo</td>
+  </tr>
+  <tr class="tdsec1">
+    <td id="Tonico-Iterado2" >Tonico/Iterado</td>
+  </tr>
+
+  <tr class="tdsec2">
+    <td id="Complejo-Formado2">Complejo/Formado</td>
+  </tr>
+  <tr class="tdsec2">
+    <td id="Complejo-Impulsivo2">Complejo/Impulsivo</td>
+  </tr>
+  <tr class="tdsec2">
+    <td id="Iterado-Complejo2">Complejo/Iterado</td>
+  </tr>
+
+  <tr class="tdsec3">
+    <td id="Variado-Formado2">Variado/Formado</td>
+  </tr>
+  <tr class="tdsec3">
+    <td id="Impulsivo-Variado2">Variado/Impulsivo</td>
+  </tr>
+  <tr class="tdsec3">
+    <td id="Iterado-Variado2">Variado/Iterado</td>
+  </tr>
+  </table>
+
+
+              <p>Pueden encontrar material de lectura al respecto en el libro "EL DISEÑO DE LA BANDA SONORA EN LOS LENGUAJES AUDIOVISUALES" del autor Carmelo Saitta: <a class="comentario"  href="pdf/sonido.pdf" target="_blank">Ver aquí</a></p>
               <br>
 
               <div class="boton">
-                <a href="menu.html">ir a menú</a>
-              </div>
+                    <a href="#arriba">volver arriba</a>
+                  </div>
                                                   
           </div>
       </div>
 
-                                           <!-- info de audios -->
-                                <audio id="audio" src="audios/Tónica.mp3"></audio>
-                                <audio id="audio2" src="audios/Impulso.mp3"></audio>
-                                <audio id="audio3" src="audios/iterado.mp3"></audio>
-                                <audio id="audio4" src="audios/complejo-formado.mp3"></audio>
-                                <audio id="audio5" src="audios/variado.mp3"></audio>
-                                <audio id="audio6" src="audios/impulsivo-tonico.mp3"></audio>
-                                <audio id="audio7" src="audios/impulsivo-Variado.mp3"></audio>
-                                <audio id="audio8" src="audios/Iterado-Variado.mp3"></audio>
-                                <audio id="audio9" src="audios/Complejo-Iterado.mp3"></audio>
-                                <br>
-                                <br>
-
-
-
-
-                                <script>
-                                    document.getElementById('tonica-formada').addEventListener('click', function() {
-                                      var audio = document.getElementById('audio');
-                                      audio.play();
-                                    });
-                                  </script>
-            
-                                  <script>
-                                    document.getElementById('Complejo-Impulsivo').addEventListener('click', function() {
-                                      var audio = document.getElementById('audio2');
-                                      audio.play();
-                                    });
-                                  </script>
-            
-                                  <script>
-                                    document.getElementById('Tonico-Iterado').addEventListener('click', function() {
-                                      var audio = document.getElementById('audio3');
-                                      audio.play();
-                                    });
-                                  </script>
-            
-                                  <script>
-                                    document.getElementById('Complejo-Formado').addEventListener('click', function() {
-                                      var audio = document.getElementById('audio4');
-                                      audio.play();
-                                    });
-                                  </script>
-                                  
-                                  <script>
-                                    document.getElementById('Variado-Formado').addEventListener('click', function() {
-                                      var audio = document.getElementById('audio5');
-                                      audio.play();
-                                    });
-                                  </script>
-
-                                  <script>
-                                    document.getElementById('tonica-impulsiva').addEventListener('click', function() {
-                                      var audio = document.getElementById('audio6');
-                                      audio.play();
-                                    });
-                                  </script>
-
-                                  <script>
-                                    document.getElementById('Impulsivo-Variado').addEventListener('click', function() {
-                                      var audio = document.getElementById('audio7');
-                                      audio.play();
-                                    });
-                                  </script>
-
-                                  <script>
-                                    document.getElementById('Iterado-Variado').addEventListener('click', function() {
-                                      var audio = document.getElementById('audio8');
-                                      audio.play();
-                                    });
-                                  </script>
-
-                                  <script>
-                                    document.getElementById('Iterado-Complejo').addEventListener('click', function() {
-                                      var audio = document.getElementById('audio9');
-                                      audio.play();
-                                    });
-                                  </script>       
+                             
+                              
     </main>
+
+ <!-- info de audios -->
+    <audio id="audio0" src="audios/Tónica.mp3"></audio>
+    <audio id="audio1" src="audios/impulsivo-tonico.mp3"></audio>
+    <audio id="audio2" src="audios/iterado.mp3"></audio>
+    <audio id="audio3" src="audios/complejo-formado.mp3"></audio>
+    <audio id="audio4" src="audios/Impulso.mp3"></audio>
+    <audio id="audio5" src="audios/Complejo-Iterado.mp3"></audio>
+    <audio id="audio6" src="audios/variado.mp3"></audio>
+    <audio id="audio7" src="audios/impulsivo-Variado.mp3"></audio>
+    <audio id="audio8" src="audios/Iterado-Variado.mp3"></audio>
+    
+
+    <audio id="audio9" src="audios/1.mp3"></audio>
+    <audio id="audio10" src="audios/1.mp3"></audio>
+    <audio id="audio11" src="audios/700hz.mp3"></audio>
+    <audio id="audio12" src="audios/2.mp3"></audio>
+    <audio id="audio13" src="audios/semidef.mp3"></audio>
+    <audio id="audio14" src="audios/ruidoBlanco.mp3"></audio>
+    <audio id="audio15" src="audios/RB-LP-1000.mp3"></audio>
+    <audio id="audio16" src="audios/RB-HP-1000.mp3"></audio>
+    <audio id="audio17" src="audios/1.-10.mp3"></audio>
+    <audio id="audio18" src="audios/1.0.mp3"></audio>
+    <audio id="audio19" src="audios/soncor.mp3"></audio>
+    <audio id="audio20" src="audios/sonlarg.mp3"></audio>
+    <audio id="audio21" src="audios/3.mp3"></audio>
+    <audio id="audio22" src="audios/Tónica.mp3"></audio>
+    <audio id="audio23" src="audios/complejo-formado.mp3"></audio>
+    <audio id="audio24" src="audios/variado.mp3"></audio>
+    <audio id="audio25" src="audios/Tónica.mp3"></audio>
+    <audio id="audio26" src="audios/Impulso.mp3"></audio>
+    <audio id="audio27" src="audios/iterado.mp3"></audio>
+
+    <audio id="audio28" src="audios/Tónica.mp3"></audio>
+    <audio id="audio29" src="audios/impulsivo-tonico.mp3"></audio>
+    <audio id="audio30" src="audios/iterado.mp3"></audio>
+    <audio id="audio31" src="audios/complejo-formado.mp3"></audio>
+    <audio id="audio32" src="audios/Impulso.mp3"></audio>
+    <audio id="audio33" src="audios/Complejo-Iterado.mp3"></audio>
+    <audio id="audio34" src="audios/variado.mp3"></audio>
+    <audio id="audio35" src="audios/impulsivo-Variado.mp3"></audio>
+    <audio id="audio36" src="audios/Iterado-Variado.mp3"></audio>
+
+
+
+    
+
+
+<script>
+
+// Almacena las referencias de los audios
+const audios = [
+document.getElementById('audio0'),
+document.getElementById('audio1'),
+document.getElementById('audio2'),
+document.getElementById('audio3'),
+document.getElementById('audio4'),
+document.getElementById('audio5'),
+document.getElementById('audio6'),
+document.getElementById('audio7'),
+document.getElementById('audio8'),
+document.getElementById('audio9'),
+document.getElementById('audio10'),
+document.getElementById('audio11'),
+document.getElementById('audio12'),
+document.getElementById('audio13'),
+document.getElementById('audio14'),
+document.getElementById('audio15'),
+document.getElementById('audio16'),
+document.getElementById('audio17'),
+document.getElementById('audio18'),
+document.getElementById('audio19'),
+document.getElementById('audio20'),
+document.getElementById('audio21'),
+document.getElementById('audio22'),
+document.getElementById('audio23'),
+document.getElementById('audio24'),
+document.getElementById('audio25'),
+document.getElementById('audio26'),
+document.getElementById('audio27'),
+document.getElementById('audio28'),
+document.getElementById('audio29'),
+document.getElementById('audio30'),
+document.getElementById('audio31'),
+document.getElementById('audio32'),
+document.getElementById('audio33'),
+document.getElementById('audio34'),
+document.getElementById('audio35'),
+document.getElementById('audio36')
+];
+
+// Asocia eventos a los botones
+document.getElementById('tonica-formada').addEventListener('click', function () {
+  playAudio(audios[0]);
+});
+document.getElementById('tonica-impulsiva').addEventListener('click', function () {
+  playAudio(audios[1]);
+});
+document.getElementById('Tonico-Iterado').addEventListener('click', function () {
+  playAudio(audios[2]);
+});
+document.getElementById('Complejo-Formado').addEventListener('click', function () {
+  playAudio(audios[3]);
+});
+document.getElementById('Complejo-Impulsivo').addEventListener('click', function () {
+  playAudio(audios[4]);
+});
+document.getElementById('Iterado-Complejo').addEventListener('click', function () {
+  playAudio(audios[5]);
+});
+document.getElementById('Variado-Formado').addEventListener('click', function () {
+  playAudio(audios[6]);
+});
+document.getElementById('Impulsivo-Variado').addEventListener('click', function () {
+  playAudio(audios[7]);
+});
+document.getElementById('Iterado-Variado').addEventListener('click', function () {
+  playAudio(audios[8]);
+});
+
+
+document.getElementById('play1').addEventListener('click', function () {
+  playAudio(audios[9]);
+});
+document.getElementById('play2').addEventListener('click', function () {
+  playAudio(audios[10]);
+});
+document.getElementById('play3').addEventListener('click', function () {
+  playAudio(audios[11]);
+});
+document.getElementById('play4').addEventListener('click', function () {
+  playAudio(audios[12]);
+});
+document.getElementById('play5').addEventListener('click', function () {
+  playAudio(audios[13]);
+});
+document.getElementById('play6').addEventListener('click', function () {
+  playAudio(audios[14]);
+});
+document.getElementById('play7').addEventListener('click', function () {
+  playAudio(audios[15]);
+});
+document.getElementById('play8').addEventListener('click', function () {
+  playAudio(audios[16]);
+});
+document.getElementById('play9').addEventListener('click', function () {
+  playAudio(audios[17]);
+});
+document.getElementById('play10').addEventListener('click', function () {
+  playAudio(audios[18]);
+});
+document.getElementById('play11').addEventListener('click', function () {
+  playAudio(audios[19]);
+});
+document.getElementById('play12').addEventListener('click', function () {
+  playAudio(audios[20]);
+});
+document.getElementById('play13').addEventListener('click', function () {
+  playAudio(audios[21]);
+});
+document.getElementById('play14').addEventListener('click', function () {
+  playAudio(audios[22]);
+});
+document.getElementById('play15').addEventListener('click', function () {
+  playAudio(audios[23]);
+});
+document.getElementById('play16').addEventListener('click', function () {
+  playAudio(audios[24]);
+});
+document.getElementById('play17').addEventListener('click', function () {
+  playAudio(audios[25]);
+});
+document.getElementById('play18').addEventListener('click', function () {
+  playAudio(audios[26]);
+});
+document.getElementById('play19').addEventListener('click', function () {
+  playAudio(audios[27]);
+});
+
+document.getElementById('tonica-formada2').addEventListener('click', function () {
+  playAudio(audios[28]);
+});
+document.getElementById('tonica-impulsiva2').addEventListener('click', function () {
+  playAudio(audios[29]);
+});
+document.getElementById('Tonico-Iterado2').addEventListener('click', function () {
+  playAudio(audios[30]);
+});
+document.getElementById('Complejo-Formado2').addEventListener('click', function () {
+  playAudio(audios[31]);
+});
+document.getElementById('Complejo-Impulsivo2').addEventListener('click', function () {
+  playAudio(audios[32]);
+});
+document.getElementById('Iterado-Complejo2').addEventListener('click', function () {
+  playAudio(audios[33]);
+});
+document.getElementById('Variado-Formado2').addEventListener('click', function () {
+  playAudio(audios[34]);
+});
+document.getElementById('Impulsivo-Variado2').addEventListener('click', function () {
+  playAudio(audios[35]);
+});
+document.getElementById('Iterado-Variado2').addEventListener('click', function () {
+  playAudio(audios[36]);
+});
+  
+
+
+
+document.getElementById('stopAll').addEventListener('click', stopAllAudios);
+
+
+// Función para manejar la reproducción y detener otros audios
+function playAudio(activeAudio) {
+  audios.forEach(audio => {
+      if (audio !== activeAudio) {
+          audio.pause(); // Pausa los demás audios
+          audio.currentTime = 0; // Reinicia al inicio
+      }
+  });
+  activeAudio.play(); // Reproduce el audio activo
+}
+
+// Función para detener todos los audios
+function stopAllAudios() {
+  audios.forEach(audio => {
+      audio.pause(); // Pausa cada audio
+      audio.currentTime = 0; // Reinicia al inicio
+  });
+}
+</script>
+
+
+
+
+
   </body>
 </html>

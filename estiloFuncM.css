@@ -13,22 +13,28 @@ button{
 
 }
 .contPrinc {
-    display: block;
+    display: flex;
     background-color: rgb(179, 223, 255);
     width: 80%;
-padding:0.5em ;
+    padding:2em ;
     margin: auto;
-}
+    flex-direction: column;
+    align-items: center;
+  }
+
 body {
     background-color: rgb(43, 39, 39);
 }
 
 h1 {
+  width: 100%;
+  height: auto;
     font-family: 'Times New Roman', Times, serif;
     padding: 0.3em;
     background-color: beige;
     text-shadow: 8px 8px 10px grey;
     border-radius: 0.5em;
+    text-align: center;
 }
 .videos {
     display: flex;
@@ -65,7 +71,11 @@ img {
     margin: auto;
 }
 p {
-    font-size: 1.5em;
+  width: 100%;
+  height: auto;
+  font-size: 1.5em;
+
+  
 }
 li {
     font-size: 1.5em;
@@ -113,6 +123,15 @@ li {
 
 
 }
+a{
+  text-decoration: none;
+  color: rgb(40, 127, 0);
+}
+
+a:hover{
+  color: rgb(96, 56, 56);
+  cursor: pointer;
+}
 
 @media (max-width:1000px){
         .contPrinc{
@@ -122,13 +141,166 @@ li {
         }
     }
 
-    a{
-        text-decoration: none;
-        color: darkgreen;
 
-    }
-    a:hover{
-        color: rgb(22, 234, 22);
-        transition: 0.5s;
 
+    #yuxtaposicion{
+        cursor: pointer;
+      }
+    #imbricacion{
+        cursor: pointer;
+      
+      }
+    #silencio{
+        cursor: pointer;
     }
+
+    #interpolacion{
+        cursor: pointer;
+    }
+
+    #imagine1{
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      #imagine1:hover{
+        cursor: pointer;
+        color: rgb(248, 5, 70);
+        transition: 0.3s;
+      }
+    #imagine2{
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      #imagine2:hover{
+        cursor: pointer;
+        color: rgb(248, 5, 70);
+        transition: 0.3s;
+      }
+
+    #imagine3{
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      #imagine3:hover{
+        cursor: pointer;
+        color: rgb(248, 5, 70);
+        transition: 0.3s;
+      }
+
+    #imagine4{
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      #imagine4:hover{
+        cursor: pointer;
+        color: rgb(248, 5, 70);
+        transition: 0.3s;
+      }
+
+    #imagine5{
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      #imagine5:hover{
+        cursor: pointer;
+        color: rgb(248, 5, 70);
+        transition: 0.3s;
+      }
+
+    #imagine6{
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      #imagine6:hover{
+        cursor: pointer;
+        color: rgb(248, 5, 70);
+        transition: 0.3s;
+      }
+
+    #imagine7{
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      #imagine7:hover{
+        cursor: pointer;
+        color: rgb(248, 5, 70);
+        transition: 0.3s;
+      } 
+
+    #imagine8{
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      #imagine8:hover{
+        cursor: pointer;
+        color: rgb(248, 5, 70);
+        transition: 0.3s;
+      }
+
+    #imagine9{
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      #imagine9:hover{
+        cursor: pointer;
+        color: rgb(248, 5, 70);
+        transition: 0.3s;
+      }
+
+
+
+      #stopAll{
+        display: inline;
+        width: 7em;
+        height: auto;
+        position: sticky; /* Activa el comportamiento sticky */
+        top: 1em;       /* Define el límite superior donde se "pega" */
+        padding: 10px;
+        background-color: #ff6735;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 7px 6px 7px grey;
+        transition: 0.3s;
+        text-align: center;
+        z-index: 100;
+        margin: 0.5em;
+    }
+    
+    #stopAll:hover{
+    
+        transition: 0.3s;
+        background-color: #9f0404;
+    }
+
+
+    #imagine{
+        display: inline-block;
+        width: 12em;
+        height: auto;
+    margin-left: 2em;
+    padding: 10px 20px;
+    background-color: #31234b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 7px 6px 7px grey;
+    text-align: center;
+    transition: 0.3s;
+    }
+
+    #imagine:hover{
+        width: 11.8em;
+        height: auto;
+        transition: 0.3s;
+        box-shadow: 5px 4px 5px grey;
+     
+    }
+    h2{
+      width: 100%;
+      height: auto;
+    }
+
+     

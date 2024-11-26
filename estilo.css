@@ -83,15 +83,17 @@ h1{
 
 h2{display: flex;
     font-size: 4em;
-    margin-left: 3em;
+  
     font-family: monospace;
-    margin: auto;
+ 
     padding-top: 0.3em;
+    text-align: center;
 }
 h4{display: flex;
     margin-top: 0em;
     margin-bottom: 3em;
     font-size: 1.4em;
+    
 }
 
 audio{
@@ -275,7 +277,7 @@ margin-right: 1em;
 }
 .referentext {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin: 1em;
     margin-top: 0.1em;
     text-align: left;

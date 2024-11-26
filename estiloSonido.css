@@ -3,10 +3,11 @@
 
 
 body{
-
     width: 100%;
     height: auto;
     margin: 0;
+    background-color: rgb(43, 39, 39);
+   
 }
 
 .cajaPrinc{
@@ -14,17 +15,14 @@ body{
     width: 85%;
     height: auto;
     background-color: antiquewhite;
-    margin: auto;
-
     flex-direction: column;
-    border-radius: 0.5em;
     padding-bottom: 1em;
     align-items: center;
+    margin: 0 auto;
 }
 
 h1{
     display: flex;
-    font-size: 2.5em;
     margin: auto;
     padding: 0.5em;
     text-shadow: 3px 7px 10px gray;
@@ -85,8 +83,6 @@ ul{
     background-color: rgb(181, 191, 252);
     border-radius: 1em;
     align-items: center;
-
-
 }
 img{
     width: 90%;
@@ -142,47 +138,39 @@ audio{
 }
 
 .botonMenu{
-    display: inline-block; 
-}
-
-.botonMenu img{
-    display: block;
-    width: 130px;
-    height: auto;
-    cursor: pointer;
-}
-
-.botonMenu img:hover{
-    width: 125px;
-    height: auto;
-    transition: 0.5s;
-}
-
-.botonMenu{
-   
-    margin: 1em;
-
-}
+    display: flex;
+    margin-top: 1em;
+    justify-content: center;
+  
+  }
+  .botonMenu img{
+      display: block;
+      width: 70%;
+      height: auto;
+      margin: auto;
+      transition: 0.3s;
+  }
+  .botonMenu img:hover{
+      cursor: pointer;
+      box-shadow: 0px 0px 20px blue;
+      transition: 0.3s;
+  }
 
 @media (max-width:1000px) {
     body{
         width: 100%;
         height: auto;
-    
-  
     }
     .cajaPrinc{
         width: 100%;
         height: auto;
         margin: 0;
-
     }
     .imaudio{
         display: flex;
         width: 95%;
         height: auto;
-        margin: auto;
-       
+        margin: auto;   
     }
 
     .objeto{
@@ -191,9 +179,6 @@ audio{
         height: auto;
         margin: auto;
     }
-
-
-    
 
     .imaudio audio {
         width: 80%;
@@ -223,6 +208,11 @@ audio{
         display: table;
   
     }
+
+    .botonMenu{
+        width: 40%;
+        height: auto;
+      }
 
 }
 
@@ -493,12 +483,12 @@ table{
 }
 
 #stopAll{
-    display: inline;
-    width: 7em;
+    display: flex;
+    width: auto;
     height: auto;
     position: sticky; /* Activa el comportamiento sticky */
     top: 1em;       /* Define el límite superior donde se "pega" */
-    padding: 10px;
+    padding: 1px;
     background-color: #ff6735;
     color: white;
     border: none;
@@ -508,15 +498,18 @@ table{
     transition: 0.3s;
     text-align: center;
     z-index: 100;
-    margin: 0.5em;
-}
-
+    margin: 0.5em;       
+  }
 #stopAll:hover{
-
     transition: 0.3s;
     background-color: #9f0404;
- 
 }
+#stopAll p{
+    display: flex;
+    font-size: 2em;
+    margin: 0.3em; 
+  }
+
 
 .comentario{
     color: #0c3e0e;

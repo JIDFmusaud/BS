@@ -1,5 +1,9 @@
 
-
+body{width: 100%;
+    height: auto;
+    margin: 0;
+    background-color: black;
+}
 
 .pass{
     display: flex;
@@ -49,12 +53,12 @@ button{
 
 .contenedorPrinc{
     display: flex;
-    width: 90%;
+    width: 85%;
     height: auto;
     margin: auto;
     background-color: rgb(208, 204, 189);
     flex-direction: column;
-    padding: 1em;
+
 }
 
 .contSec{
@@ -77,21 +81,22 @@ h1{
     text-shadow: 5px 4px 10px rgb(167, 162, 162);
 }
 
-h2{
+h2{display: flex;
+    font-size: 4em;
     margin-left: 3em;
     font-family: monospace;
     margin: auto;
     padding-top: 0.3em;
 }
-h4{
+h4{display: flex;
     margin-top: 0em;
     margin-bottom: 3em;
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 audio{
     width: 90%;
-    height: 2em;
+    height: 4em;
     margin-bottom: 0.5em;
     padding: 1em;
 }
@@ -102,9 +107,8 @@ audio{
     height: auto;
     flex-direction: row;
     margin: auto;
-
-    align-items: center;
-    align-content: center;
+    
+    align-content: top;
     background-color: rgb(196, 187, 155);
 }
 
@@ -121,6 +125,7 @@ audio{
 
 .cajita2{
     display: flex;
+
     width: 100%;
     height: auto;
 
@@ -129,9 +134,9 @@ audio{
     flex-direction: column;  
 }
 
-p{
+p{display: flex;
     text-align: center;
-    font-size: 2em;
+    font-size: 3.4em;
     font-family: monospace;
     font-weight: bold;
 
@@ -144,7 +149,10 @@ p{
 
 body {
     display: flex;
-    background-color: blanchedalmond;
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
   }
 
   #login-form {
@@ -208,7 +216,7 @@ input#password{
     background-color: rgb(209, 197, 180);
     border: 0.3em groove rgb(113, 56, 8);
     padding: 2em;
-    margin: 0 auto;
+    margin: auto;
     border-radius: 0.7em;
 
 }
@@ -265,21 +273,25 @@ margin-right: 1em;
 
 
 }
-.referentext{
+.referentext {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.2em;
-    margin-left: 1em;
-    margin-right: 1em;
+    font-size: 1.3em;
+    margin: 1em;
     margin-top: 0.1em;
-    
-    text-align: justify;
-    text-indent: 1em;
+    text-align: left;
+ 
+
 }
 @media (max-width:1000px) {
 .menu{
     flex-direction: column;
 }
-    .contFoto{flex-direction: column;
+    .contFoto{
+
+        width: 100%;
+        height: auto;
+        margin: auto;
+        flex-direction: column;
     
 }
 .contFoto img{
@@ -287,7 +299,7 @@ margin-right: 1em;
 }
 
 .contenedorPrinc{
-    width: 98%;
+    width: 100%;
     height: auto;
     margin: auto;
 }
@@ -302,22 +314,27 @@ margin-right: 1em;
 }
 }
 
-.botonMenu img{
-    display: block;
-    width: 8em;
-    height: auto;
-    cursor: pointer;
-}
-
-.botonMenu img:hover{
-    width: 7.7em;
-    height: auto;
-    transition: 0.5s;
-}
-
 .botonMenu{
     display: flex;
     margin-top: 1em;
     justify-content: center;
-}
+  
+  }
+  .botonMenu img{
+      display: block;
+      width: 70%;
+      height: auto;
+      margin: auto;
+      transition: 0.3s;
+  }
+  .botonMenu img:hover{
+      cursor: pointer;
+      box-shadow: 0px 0px 20px blue;
+      transition: 0.3s;
+  }
+  .pieDePagina{
+    display: flex;
+    font-size: 1.3em;
+    padding-bottom: 4em;
+  }
 

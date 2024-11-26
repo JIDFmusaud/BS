@@ -1,6 +1,15 @@
 
 
    
+body{
+
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background-color: rgb(43, 39, 39);
+}
+
+
 button{
     background-color: darkcyan;
 }
@@ -15,16 +24,12 @@ button{
 .contPrinc {
     display: flex;
     background-color: rgb(179, 223, 255);
-    width: 80%;
+    width: 85%;
     padding:2em ;
     margin: auto;
     flex-direction: column;
     align-items: center;
   }
-
-body {
-    background-color: rgb(43, 39, 39);
-}
 
 h1 {
   width: 100%;
@@ -52,13 +57,12 @@ video {
     display: flex;
     flex-wrap: wrap;
 }
-img {
+.imagen img {
     display: flex;
     width:auto;
     height: 8em;
     padding: 0.5em;
     margin: auto;
-
 }
 .imgF img {
     width:auto;
@@ -100,29 +104,29 @@ li {
     margin-bottom: 0.3em;
     width: 200px;
     height: auto;
+
 }
 
 .botonMenu{
-    display: inline-block;
+  display: flex;
+  margin-top: 1em;
+  justify-content: center;
 
-  
 }
-
 .botonMenu img{
     display: block;
-    width: 130px;
+    width: 70%;
     height: auto;
-    cursor: pointer;
-
-
+    margin: auto;
+    transition: 0.3s;
 }
 .botonMenu img:hover{
-    width: 125px;
-    height: auto;
-    transition: 0.5s;
-
-
+    cursor: pointer;
+    box-shadow: 0px 0px 20px blue;
+    transition: 0.3s;
 }
+
+
 a{
   text-decoration: none;
   color: rgb(40, 127, 0);
@@ -134,12 +138,29 @@ a:hover{
 }
 
 @media (max-width:1000px){
-        .contPrinc{
-            width: 98%;
-            height: auto;
-            margin: auto;
+  body{
+    width: 100%;
+    height: auto;
+  }
+
+  .contPrinc{
+    width: 100%;
+    height: auto;
+    margin: 0;
         }
-    }
+
+.botonMenu{
+  width: 40%;
+  height: auto;
+}
+
+#stopAll p{
+  display: flex;
+  font-size: 1em;
+  margin: 0.3em; 
+}
+
+}
 
 
 
@@ -162,7 +183,7 @@ a:hover{
         cursor: pointer;
         transition: 0.3s;
       }
-      #imagine1:hover{
+    #imagine1:hover{
         cursor: pointer;
         color: rgb(248, 5, 70);
         transition: 0.3s;
@@ -171,7 +192,7 @@ a:hover{
         cursor: pointer;
         transition: 0.3s;
       }
-      #imagine2:hover{
+    #imagine2:hover{
         cursor: pointer;
         color: rgb(248, 5, 70);
         transition: 0.3s;
@@ -181,7 +202,7 @@ a:hover{
         cursor: pointer;
         transition: 0.3s;
       }
-      #imagine3:hover{
+    #imagine3:hover{
         cursor: pointer;
         color: rgb(248, 5, 70);
         transition: 0.3s;
@@ -191,7 +212,7 @@ a:hover{
         cursor: pointer;
         transition: 0.3s;
       }
-      #imagine4:hover{
+    #imagine4:hover{
         cursor: pointer;
         color: rgb(248, 5, 70);
         transition: 0.3s;
@@ -211,7 +232,7 @@ a:hover{
         cursor: pointer;
         transition: 0.3s;
       }
-      #imagine6:hover{
+    #imagine6:hover{
         cursor: pointer;
         color: rgb(248, 5, 70);
         transition: 0.3s;
@@ -231,7 +252,7 @@ a:hover{
         cursor: pointer;
         transition: 0.3s;
       }
-      #imagine8:hover{
+    #imagine8:hover{
         cursor: pointer;
         color: rgb(248, 5, 70);
         transition: 0.3s;
@@ -241,37 +262,39 @@ a:hover{
         cursor: pointer;
         transition: 0.3s;
       }
-      #imagine9:hover{
+    #imagine9:hover{
         cursor: pointer;
         color: rgb(248, 5, 70);
         transition: 0.3s;
       }
 
-
-
-      #stopAll{
-        display: inline;
-        width: 7em;
-        height: auto;
-        position: sticky; /* Activa el comportamiento sticky */
-        top: 1em;       /* Define el límite superior donde se "pega" */
-        padding: 10px;
-        background-color: #ff6735;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        box-shadow: 7px 6px 7px grey;
-        transition: 0.3s;
-        text-align: center;
-        z-index: 100;
-        margin: 0.5em;
+    #stopAll{
+      display: flex;
+      width: auto;
+      height: auto;
+      position: sticky; /* Activa el comportamiento sticky */
+      top: 1em;       /* Define el límite superior donde se "pega" */
+      padding: 1px;
+      background-color: #ff6735;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 7px 6px 7px grey;
+      transition: 0.3s;
+      text-align: center;
+      z-index: 100;
+      margin: 0.5em;       
     }
     
     #stopAll:hover{
-    
         transition: 0.3s;
         background-color: #9f0404;
+    }
+    #stopAll p{
+      display: flex;
+      font-size: 2em;
+      margin: 0.3em; 
     }
 
 

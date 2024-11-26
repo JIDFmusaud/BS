@@ -1,4 +1,7 @@
-
+body{
+    background-color: black;
+    margin: 0;
+}
 button{
     background-color: darkcyan;
 }
@@ -14,7 +17,7 @@ button{
 
 .contenedorPrinc{
     display: flex;
-    width: 98%;
+    width: 85%;
     height: auto;
     margin: auto;
     padding-left: 0.4em;
@@ -217,25 +220,43 @@ p{
     transition: 0.5s;
 }
 
-.botonMenu{
-    display: inline-block;
-}
-
-.botonMenu img{
-    display: block;
-    width: 8em;
-    height: auto;
-    cursor: pointer;
-}
-
-.botonMenu img:hover{
-    width: 7.7em;
-    height: auto;
-    transition: 0.5s;
-}
 
 .botonMenu{
     display: flex;
     margin-top: 1em;
     justify-content: center;
+  
+  }
+  .botonMenu img{
+      display: block;
+      width: 70%;
+      height: auto;
+      margin: auto;
+      transition: 0.3s;
+  }
+  .botonMenu img:hover{
+      cursor: pointer;
+      box-shadow: 0px 0px 20px blue;
+      transition: 0.3s;
+  }
+
+
+
+
+
+@media (max-width:1000px){
+    body{
+      width: 100%;
+      height: auto;
+    }
+    
+    .contenedorPrinc{
+        width: 100%;
+        height: auto;
+    }
+
+    .botonMenu{
+        width: 40%;
+        height: auto;
+    }
 }

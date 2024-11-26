@@ -270,186 +270,221 @@ table{
     cursor: pointer;
     transition: 0.3s;
     font-size: 1.2em; 
-    color:#000000  
+    color:#000000; 
+    user-select: none;  
   }
 #tonica-formada:hover{
     cursor: pointer;
     color: rgb(248, 5, 70);
     transition: 0.3s;
+    user-select: none; 
   }
 #tonica-formada2{
     cursor: pointer;
     transition: 0.3s;
     font-size: 1.7em; 
-    color:#000000  
+    color:black;
+    user-select: none; 
+
   }
 #tonica-formada2:hover{
     cursor: pointer;
     color: rgb(248, 5, 70);
     transition: 0.3s;
+    user-select: none; 
   }
 
 #Complejo-Impulsivo{
     cursor: pointer;
     transition: 0.3s;
     font-size: 1.2em; 
-    color:#000000   
+    color:#000000;
+    user-select: none;   
   }
 #Complejo-Impulsivo:hover{
     cursor: pointer;
     color: rgb(248, 5, 70);
     transition: 0.3s;
+    user-select: none; 
   }
 
 #Complejo-Impulsivo2{
     cursor: pointer;
     transition: 0.3s;
     font-size: 1.7em; 
-    color:#000000   
+    color:#000000;
+    user-select: none;    
   }
 #Complejo-Impulsivo2:hover{
     cursor: pointer;
     color: rgb(248, 5, 70);
     transition: 0.3s;
+    user-select: none; 
   }
 
 #Tonico-Iterado{
     cursor: pointer;
     font-size: 1.2em; 
-    color:#000000  
+    color:#000000;
+    user-select: none;   
   }
   #Tonico-Iterado:hover{
     cursor: pointer;
     color: rgb(248, 5, 70);
     transition: 0.3s;
+    user-select: none; 
   }
   #Tonico-Iterado2{
     cursor: pointer;
     font-size: 1.7em; 
-    color:#000000  
+    color:#000000;
+    user-select: none;   
   }
   #Tonico-Iterado2:hover{
     cursor: pointer;
     color: rgb(248, 5, 70);
     transition: 0.3s;
+    user-select: none; 
   }
 
   #Complejo-Formado{
     cursor: pointer;
     font-size: 1.2em; 
-    color:#000000  
+    color:#000000;
+    user-select: none;   
   }
   #Complejo-Formado:hover{
     cursor: pointer;
     color: rgb(248, 5, 70);
     transition: 0.3s;
+    user-select: none; 
   }
   #Complejo-Formado2{
     cursor: pointer;
     font-size: 1.7em; 
-    color:#000000  
+    color:#000000;
+    user-select: none;   
   }
   #Complejo-Formado2:hover{
     cursor: pointer;
     color: rgb(248, 5, 70);
     transition: 0.3s;
+    user-select: none; 
   }
 
  #Variado-Formado2{
     cursor: pointer;
     font-size: 1.7em; 
-    color:#000000  
+    color:#000000;
+    user-select: none;   
   }
   #Variado-Formado2:hover{
     cursor: pointer;
     color: rgb(248, 5, 70);
     transition: 0.3s;
+    user-select: none; 
   }
 
   #tonica-impulsiva{
     cursor: pointer;
     font-size: 1.2em; 
-    color:#000000  
+    color:#000000;
+    user-select: none;   
   }
   #tonica-impulsiva:hover{
     cursor: pointer;
     color: rgb(248, 5, 70);
     transition: 0.3s;
+    user-select: none; 
   }
 
   #tonica-impulsiva2{
     cursor: pointer;
     font-size: 1.7em; 
-    color:#000000  
+    color:#000000;
+    user-select: none;   
   }
   #tonica-impulsiva2:hover{
     cursor: pointer;
     color: rgb(248, 5, 70);
     transition: 0.3s;
+    user-select: none; 
   }
 
   #Impulsivo-Variado{
     cursor: pointer;
     font-size: 1.2em; 
-    color:#000000  
+    color:#000000;
+    user-select: none;   
   }
   #Impulsivo-Variado:hover{
     cursor: pointer;
     color: rgb(248, 5, 70);
     transition: 0.3s;
+    user-select: none; 
   }
 
   #Impulsivo-Variado2{
     cursor: pointer;
     font-size: 1.7em; 
-    color:#000000  
+    color:#000000;
+    user-select: none;   
   }
   #Impulsivo-Variado2:hover{
     cursor: pointer;
     color: rgb(248, 5, 70);
     transition: 0.3s;
+    user-select: none; 
   }
 
   #Iterado-Variado{
     cursor: pointer;
     font-size: 1.2em; 
-    color:#000000  
+    color:#000000;
+    user-select: none;   
   }
   #Iterado-Variado:hover{
     cursor: pointer;
     color: rgb(248, 5, 70);
     transition: 0.3s;
+    user-select: none; 
   }
   #Iterado-Variado2{
     cursor: pointer;
     font-size: 1.7em; 
-    color:#000000  
+    color:#000000;
+    user-select: none;  
   }
   #Iterado-Variado2:hover{
     cursor: pointer;
     color: rgb(248, 5, 70);
     transition: 0.3s;
+    user-select: none; 
   }
 
   #Iterado-Complejo{
     cursor: pointer;
     font-size: 1.2em; 
-    color:#000000  
+    color:#000000;
+    user-select: none;   
   }
   #Iterado-Complejo:hover{
     cursor: pointer;
     color: rgb(248, 5, 70);
     transition: 0.3s;
+    user-select: none; 
   }
   #Iterado-Complejo2{
     cursor: pointer;
     font-size: 1.7em; 
-    color:#000000  
+    color:#000000;
+    user-select: none;  
   }
   #Iterado-Complejo2:hover{
     cursor: pointer;
     color: rgb(248, 5, 70);
     transition: 0.3s;
+    user-select: none; 
   }
 
 
@@ -467,6 +502,7 @@ table{
     transition: 0.3s;
     border-radius: 0.3em;
     padding: 0.5em;
+    user-select: none; 
 }
 .boton:hover{
     width: 9.5em;
@@ -474,12 +510,14 @@ table{
     cursor: pointer;
     transition: 0.3s;
     box-shadow: 6px 5px 4px gray;
+    user-select: none; 
     
 }
 .boton a { 
     font-size: 1.5em;
     color: aliceblue;
     padding: 2px;
+    user-select: none; 
 
 }
 
@@ -538,11 +576,13 @@ box-shadow: 7px 6px 7px grey;
 text-align: center;
 transition: 0.3s;
 margin: 0.5em;
+user-select: none; 
 }
 
 #play1:hover{
     background-color: rgb(0, 114, 114);
     transition: 0.3s;
+    user-select: none; 
 }
 
 #play2{
@@ -558,12 +598,14 @@ margin: 0.5em;
     text-align: center;
     transition: 0.3s;
     margin: 0.5em;
+    user-select: none; 
 
 }
 
 #play2:hover{
     background-color: rgb(0, 114, 114);
     transition: 0.3s;
+    user-select: none; 
 }
 
 #play3{
@@ -580,11 +622,13 @@ margin: 0.5em;
     transition: 0.3s;
     margin: auto;
     margin: 0.5em;
+    user-select: none; 
 }
 
 #play3:hover{
     background-color: rgb(0, 114, 114);
     transition: 0.3s;
+    user-select: none; 
 }
 
 #play4{
@@ -600,11 +644,13 @@ margin: 0.5em;
     text-align: center;
     transition: 0.3s;
     margin: 0.5em;
+    user-select: none; 
 }
 
 #play4:hover{
     background-color: rgb(0, 114, 114);
-    transition: 0.3s; 
+    transition: 0.3s;
+    user-select: none;  
 }
 
 #play5{
@@ -620,11 +666,13 @@ margin: 0.5em;
     text-align: center;
     transition: 0.3s;
     margin: 0.5em;
+    user-select: none; 
 }
 
 #play5:hover{
     background-color: rgb(0, 114, 114);
-    transition: 0.3s; 
+    transition: 0.3s;
+    user-select: none;  
 }
 
 #play6{
@@ -640,11 +688,13 @@ margin: 0.5em;
     text-align: center;
     transition: 0.3s;
     margin: 0.5em;
+    user-select: none; 
 }
 
 #play6:hover{
     background-color: rgb(0, 114, 114);
     transition: 0.3s;
+    user-select: none; 
 }
 
 #play7{
@@ -660,11 +710,13 @@ margin: 0.5em;
     text-align: center;
     transition: 0.3s;
     margin: 0.5em;
+    user-select: none; 
 }
 
 #play7:hover{
     background-color: rgb(0, 114, 114);
     transition: 0.3s;
+    user-select: none; 
 }
 
 #play8{
@@ -680,11 +732,13 @@ margin: 0.5em;
     text-align: center;
     transition: 0.3s;
     margin: 0.5em;
+    user-select: none; 
 }
 
 #play8:hover{
     background-color: rgb(0, 114, 114);
     transition: 0.3s;
+    user-select: none; 
 }
 
 #play9{
@@ -700,11 +754,13 @@ margin: 0.5em;
     text-align: center;
     transition: 0.3s;
     margin: 0.5em;
+    user-select: none; 
 }
 
 #play9:hover{
     background-color: rgb(0, 114, 114);
-    transition: 0.3s; 
+    transition: 0.3s;
+    user-select: none;  
 }
 
 #play10{
@@ -720,11 +776,13 @@ margin: 0.5em;
     text-align: center;
     transition: 0.3s;
     margin: 0.5em;
+    user-select: none; 
 }
 
 #play10:hover{
     background-color: rgb(0, 114, 114);
     transition: 0.3s;
+    user-select: none; 
 }
 
 #play11{
@@ -740,11 +798,13 @@ margin: 0.5em;
     text-align: center;
     transition: 0.3s;
     margin: 0.5em;
+    user-select: none; 
 }
 
 #play11:hover{
     background-color: rgb(0, 114, 114);
     transition: 0.3s;
+    user-select: none; 
 }
 
 #play12{
@@ -760,11 +820,13 @@ margin: 0.5em;
     text-align: center;
     transition: 0.3s;
     margin: 0.5em;
+    user-select: none; 
 }
 
 #play12:hover{
     background-color: rgb(0, 114, 114);
-    transition: 0.3s; 
+    transition: 0.3s;
+    user-select: none;  
 }
 
 #play13{
@@ -780,11 +842,13 @@ margin: 0.5em;
     text-align: center;
     transition: 0.3s;
     margin: 0.5em;
+    user-select: none; 
 }
 
 #play13:hover{
     background-color: rgb(0, 114, 114);
     transition: 0.3s;
+    user-select: none; 
 }
 
 #play14{
@@ -800,11 +864,13 @@ margin: 0.5em;
     text-align: center;
     transition: 0.3s;
     margin: 0.5em;
+    user-select: none; 
 }
 
 #play14:hover{
     background-color: rgb(0, 114, 114);
     transition: 0.3s;
+    user-select: none; 
 }
 #play15{
     display: inline-block;  
@@ -819,11 +885,13 @@ margin: 0.5em;
     text-align: center;
     transition: 0.3s;
     margin: 0.5em;
+    user-select: none; 
 }
 
 #play15:hover{
     background-color: rgb(0, 114, 114);
     transition: 0.3s; 
+    user-select: none; 
 }
 
 #play16{
@@ -839,11 +907,13 @@ margin: 0.5em;
     text-align: center;
     transition: 0.3s;
     margin: 0.5em;
+    user-select: none; 
 }
 
 #play16:hover{
     background-color: rgb(0, 114, 114);
     transition: 0.3s;
+    user-select: none; 
 }
 
 #play17{
@@ -859,11 +929,13 @@ margin: 0.5em;
     text-align: center;
     transition: 0.3s;
     margin: 0.5em;
+    user-select: none; 
 }
 
 #play17:hover{
     background-color: rgb(0, 114, 114);
     transition: 0.3s;
+    user-select: none; 
 }
 
 #play18{
@@ -879,11 +951,13 @@ margin: 0.5em;
     text-align: center;
     transition: 0.3s;
     margin: 0.5em;
+    user-select: none; 
 }
 
 #play18:hover{
     background-color: rgb(0, 114, 114);
     transition: 0.3s;
+    user-select: none; 
 }
 
 #play19{
@@ -899,9 +973,11 @@ margin: 0.5em;
     text-align: center;
     transition: 0.3s;
     margin: 0.5em;
+    user-select: none; 
 }
 
 #play19:hover{
     background-color: rgb(0, 114, 114);
     transition: 0.3s;
+    user-select: none; 
 }

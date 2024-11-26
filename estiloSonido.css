@@ -266,6 +266,7 @@ table{
 
 
 #tonica-formada {
+   
     cursor: pointer;
     transition: 0.3s;
     font-size: 1.2em; 
@@ -498,16 +499,19 @@ table{
     transition: 0.3s;
     text-align: center;
     z-index: 100;
-    margin: 0.5em;       
+    margin: 0.5em;
+    user-select: none;       
   }
 #stopAll:hover{
     transition: 0.3s;
     background-color: #9f0404;
+    user-select: none;
 }
 #stopAll p{
     display: flex;
     font-size: 2em;
-    margin: 0.3em; 
+    margin: 0.3em;
+    user-select: none; 
   }
 
 

@@ -21,8 +21,6 @@ button{
     width: 85%;
     height: auto;
     margin: auto;
-    padding-left: 0.4em;
-    padding-right: 0.4em;
     padding-top: 2em;
     padding-bottom: 2em;
     background-color: rgb(208, 204, 189);
@@ -44,7 +42,7 @@ h1{
     font-size: 2.6em;
     margin: 0.7em;
     text-align: center;
-    font-family: cursive;
+
     text-shadow: 5px 4px 10px rgb(167, 162, 162);
     background-color: azure;
     border-radius: 0.5em;
@@ -78,25 +76,22 @@ video{
     flex-direction: row;
     margin: auto;
     padding-bottom:2em;
-    
     background-color: rgb(196, 187, 155);
 }
 
 .cajita1{
     width: 100%;
-    height: 100%;    
+    height: auto;    
     background-color: rgba(237, 249, 196, 0.966);
-    padding: 1em; 
+    padding: 0.7em; 
     border-radius: 1em;
 }
 
 .cajita2{
     width: 100%;
     height: auto;
-    margin: auto;
-    margin-top: 0px; 
     background-color: rgb(205, 229, 243); 
-    padding: 1em; 
+    padding: 0.7em; 
     border-radius: 1em;
 }
 

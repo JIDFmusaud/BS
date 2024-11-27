@@ -1,7 +1,9 @@
 
 body{
     background-color: cornflowerblue;
+    user-select: none;
 }
+
 h1 {
     margin: 1em;
     text-align: center;

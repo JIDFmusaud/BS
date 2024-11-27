@@ -1,6 +1,7 @@
 body{
     background-color: black;
     margin: 0;
+    user-select: none;
 }
 button{
     background-color: darkcyan;

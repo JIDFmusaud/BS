@@ -162,6 +162,9 @@ a:hover{
   margin: 0.3em; 
 
 }
+.imagen{
+  flex-direction:column ;
+}
 
 }
 
